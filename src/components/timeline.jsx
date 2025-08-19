@@ -25,10 +25,10 @@ export const Timeline = ({ data }) => {
 
   return (
     <div
-      className="relative w-full overflow-hidden md:px-10"
+      className="relative w-full overflow-hidden px-4 md:px-8 lg:px-10"
       ref={containerRef}
     >
-      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-10 md:px-8 lg:px-10">
+      <div className="relative z-10 mx-auto max-w-7xl pt-10">
         <div className="relative mb-6">
           <h2 className="mb-4 w-fit bg-gradient-to-r from-cyan-300 to-[#D4ff00] bg-clip-text text-[3.5rem] font-bold text-transparent">
             How to Register

@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="mb-16 text-center">
           <div className="relative inline-block">
             {/* drop-shadow-[0_0_10px_#D4FF00] */}
-            <h1 className="text-[3.5rem] w-fit text-left font-bold md:text-7xl px-44 bg-gradient-to-r from-cyan-300 to-[#D4ff00] bg-clip-text text-transparent">
+            <h1 className="text-[3.5rem] font-bold md:text-7xl bg-gradient-to-r from-cyan-300 to-[#D4ff00] bg-clip-text text-transparent">
               Contact
             </h1>
           </div>
@@ -30,52 +30,56 @@ const Contact = () => {
         <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
           {/* Mohit Contact Card */}
           <div className="group relative">
-            {/* Glitch Effect Border */}
-            <div className="absolute inset-0 translate-x-1 translate-y-1 transform border-2 border-[#D4FF00]/60 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+            <a href="tel:9562705531">
+              {/* Glitch Effect Border */}
+              <div className="absolute inset-0 translate-x-1 translate-y-1 transform border-2 border-[#D4FF00]/60 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
 
-            <div className="relative overflow-hidden border-2 border-[#D4FF00] bg-black/90 backdrop-blur-sm">
-              {/* Name Section */}
-              <div className="bg-[#D4FF00] px-10 py-4">
-                <h3 className="text-xl font-bold text-black md:text-2xl">
-                  Vivek
-                </h3>
-              </div>
+              <div className="relative overflow-hidden border-2 border-[#D4FF00] bg-black/90 backdrop-blur-sm">
+                {/* Name Section */}
+                <div className="bg-[#D4FF00] px-10 py-4">
+                  <h3 className="text-xl font-bold text-black md:text-2xl">
+                    Vivek
+                  </h3>
+                </div>
 
-              {/* Phone Section */}
-              <div className="border-t border-[#D4FF00]/30 bg-black/80 px-6 py-4">
-                <div className="flex items-center space-x-2">
-                  <span className="text-sm text-[#D4FF00]">&gt;</span>
-                  <span className="text-lg tracking-wider text-white md:text-xl">
-                    8921893291
-                  </span>
+                {/* Phone Section */}
+                <div className="border-t border-[#D4FF00]/30 bg-black/80 px-6 py-4">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm text-[#D4FF00]">&gt;</span>
+                    <span className="text-lg tracking-wider text-white md:text-xl">
+                      9562705531
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           {/* Sharanya Contact Card */}
           <div className="group relative">
-            {/* Glitch Effect Border */}
-            <div className="absolute inset-0 translate-x-1 translate-y-1 transform border-2 border-[#D4FF00]/60 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+            <a href="tel:9686224079">
+              {/* Glitch Effect Border */}
+              <div className="absolute inset-0 translate-x-1 translate-y-1 transform border-2 border-[#D4FF00]/60 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
 
-            <div className="relative overflow-hidden border-2 border-[#D4FF00] bg-black/90 backdrop-blur-sm">
-              {/* Name Section */}
-              <div className="bg-[#D4FF00] px-10 py-4">
-                <h3 className="text-xl font-bold text-black md:text-2xl">
-                  Sharanya
-                </h3>
-              </div>
+              <div className="relative overflow-hidden border-2 border-[#D4FF00] bg-black/90 backdrop-blur-sm">
+                {/* Name Section */}
+                <div className="bg-[#D4FF00] px-10 py-4">
+                  <h3 className="text-xl font-bold text-black md:text-2xl">
+                    Sharanya
+                  </h3>
+                </div>
 
-              {/* Phone Section */}
-              <div className="border-t border-[#D4FF00]/30 bg-black/80 px-6 py-4">
-                <div className="flex items-center space-x-2">
-                  <span className="text-sm text-[#D4FF00]">&gt;</span>
-                  <span className="text-lg tracking-wider text-white md:text-xl">
-                    9686224079
-                  </span>
+                {/* Phone Section */}
+                <div className="border-t border-[#D4FF00]/30 bg-black/80 px-6 py-4">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm text-[#D4FF00]">&gt;</span>
+                    <span className="text-lg tracking-wider text-white md:text-xl">
+                      9686224079
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
