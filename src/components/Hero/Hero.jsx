@@ -18,7 +18,7 @@ export default function Hero() {
 
   // Countdown timer effect
   useEffect(() => {
-    const targetDate = new Date('2025-09-15T00:00:00').getTime();
+    const targetDate = new Date('2025-09-25T00:00:00').getTime();
 
     const updateCountdown = () => {
       const now = Date.now();
@@ -344,7 +344,7 @@ export default function Hero() {
           <div>
             <h3 className="hero-text font-orbitron font-bold">
               Coming<br />
-              Sept 15<br />
+              Sept 25<br />
               2025
             </h3>
             <div className="countdown-timer font-orbitron text-sm mt-2" style={{ color: '#D4FF00', backgroundImage: 'none', WebkitTextFillColor: '#D4FF00' }}>
@@ -376,7 +376,7 @@ export default function Hero() {
         <h3 className='font-orbitron font-bold'>Gateways</h3>
         <div className='w-full flex justify-between items-center'>
           <p className='font-content text-justify w-[70%]'>
-            Gateways is the national technical fest, held annually for over 25 years by the Department of Computer Science at CHRIST (Deemed to be University), Bangalore. Organized by students of the post-graduate MCA (Master of Computer Applications) and MSc AI-ML (Artificial Intelligence and Machine Learning) programs, it aims to be at the forefront of innovation and collaboration, with new ideas and events presented each year.
+            Gateways is the national technical fest, held annually for over 29 years by the Department of Computer Science at CHRIST (Deemed to be University), Bangalore. Organized by students of the post-graduate MCA (Master of Computer Applications) and MSc AI-ML (Artificial Intelligence and Machine Learning) programs, it aims to be at the forefront of innovation and collaboration, with new ideas and events presented each year.
             We invite colleges from all over India, with enthusiastic participation from those who join us for this gathering of minds. An essential part of Gateways is its robust and dynamic theme, reflecting both current trends and the rich history of the discipline.
           </p>
           <img src="/gateways-logo.png" alt="gateways logo" className='w-[25%]' />
