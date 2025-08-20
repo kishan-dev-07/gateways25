@@ -291,8 +291,8 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
                 {/* Animated Corner Accents */}
                 <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-cyan-400/50 rounded-tl-lg" />
                 <div className="absolute top-0 right-0 w-20 h-20 border-t-2 border-r-2 border-purple-400/50 rounded-tr-lg" />
-                <div className="absolute bottom-0 left-0 w-20 h-20 border-b-2 border-l-2 border-pink-400/50 rounded-bl-lg" />
-                <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-yellow-400/50 rounded-br-lg" />
+                {/* <div className="absolute bottom-0 left-0 w-20 h-20 border-b-2 border-l-2 border-pink-400/50 rounded-bl-lg" />
+                <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-yellow-400/50 rounded-br-lg" /> */}
             </div>
         </div>
     );
