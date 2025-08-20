@@ -11,7 +11,12 @@
       { "Name": "Rahul Gupta", "Class": "1 MCA B", "Contact": "7506732498" }
     ],
     "Team Size": "2",
-    "Prize Pool": 7000,
+      "Prize Pool": 20000,
+      "Prizes": {
+        "First": 10000,
+        "Second": 6000,
+        "Third": 4000
+      },
     "Venue": "Assembly Hall",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
@@ -29,7 +34,12 @@
       { "Name": "Isha", "Class": "2 MCA B", "Contact": "" }
     ],
     "Team Size": "1",
-    "Prize Pool": 3000,
+      "Prize Pool": 7500,
+      "Prizes": {
+        "First": 4000,
+        "Second": 2500,
+        "Third": 1000
+      },
     "Venue": "Seminar Hall",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
@@ -42,21 +52,18 @@
     "Event Name": "Vault 404",
     "Description": "The steel door seals behind you with a sound like a database corruption. Step into the unknown with Vault 404, an unpredictable experience where the only rule is to expect the unexpected. This surprise-packed challenge will push contestants far beyond their comfort zones through a series of curveballs, spontaneous scenarios, and reality-bending twists. No technical skills required—just raw quick-thinking, creativity, and the ability to thrive in chaos. One moment you might be negotiating with a mysterious character, the next you're solving bizarre puzzles under time pressure, or improvising your way through completely absurd situations.",
     "Event Heads": [
-      {
-        "Name": "Akhil Kumar Gope",
-        "Class": "2 MCA A",
-        "Contact": "8777861147"
-      },
+      { "Name": "Akhil Kumar Gope", "Class": "2 MCA A", "Contact": "8777861147" },
       { "Name": "Bharat Harshan", "Class": "2 MCA B", "Contact": "8075334144" },
       { "Name": "R Karan", "Class": "1 MCA B", "Contact": "9971012177" },
-      {
-        "Name": "Saumya Sahil linda",
-        "Class": "1 MSAIM",
-        "Contact": "8789494739"
-      }
+      { "Name": "Saumya Sahil linda", "Class": "1 MSAIM", "Contact": "8789494739" }
     ],
     "Team Size": "2-4",
-    "Prize Pool": 7000,
+      "Prize Pool": 11500,
+      "Prizes": {
+        "First": 6000,
+        "Second": 3500,
+        "Third": 2000
+      },
     "Venue": "815",
     "Date (tentative)": "Sept 26",
     "Registration": "No On-Spot",
@@ -75,11 +82,17 @@
       { "Name": "Yeshwanth S", "Class": "2 MSAIM", "Contact": "9445571303" }
     ],
     "Team Size": "2-4",
-    "Prize Pool": 12500,
+      "Prize Pool": 27500,
+      "Prizes": {
+        "First": 14000,
+        "Second": 8500,
+        "Third": 5000
+      },
     "Venue": "911",
     "Date (tentative)": "Sept 25",
     "Registration": "No On-Spot",
     "Eligibility": "PG Computer Science and Data Science"
+
   },
   {
     "Sl No.": 5,
@@ -94,11 +107,17 @@
       { "Name": "Sourav", "Class": "1 MCA B", "Contact": "" }
     ],
     "Team Size": "1-4",
-    "Prize Pool": 12500,
+      "Prize Pool": 27500,
+      "Prizes": {
+        "First": 14000,
+        "Second": 8500,
+        "Third": 5000
+      },
     "Venue": "814",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
     "Eligibility": "PG Computer Science and Data Science"
+
   },
   {
     "Sl No.": 6,
@@ -112,7 +131,12 @@
       { "Name": "Ayur", "Class": "2 MCA A", "Contact": "7263817112" }
     ],
     "Team Size": "1",
-    "Prize Pool": 3000,
+      "Prize Pool": 5500,
+      "Prizes": {
+        "First": 3000,
+        "Second": 1500,
+        "Third": 1000
+      },
     "Venue": "Briefing in 815",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
@@ -130,7 +154,12 @@
       { "Name": "Sachin D", "Class": "1 MCA B", "Contact": "9901952488" }
     ],
     "Team Size": "1-3",
-    "Prize Pool": 13500,
+      "Prize Pool": 34500,
+      "Prizes": {
+        "First": 17500,
+        "Second": 11000,
+        "Third": 6000
+      },
     "Venue": "815",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
@@ -143,16 +172,17 @@
     "Event Name": "NodeRaid",
     "Description": "Gear up for CTF NodeRaid, a fast-paced cybersecurity showdown where teams race to hack, defend, and conquer a network of vulnerable nodes! Crack passwords, exploit hidden flaws, and capture digital flags—all while protecting your own node from rival attacks. With real-world hacking scenarios and escalating difficulty levels, this is your chance to test your skills in a safe but thrilling cyber-battlefield. Whether you're a seasoned hacker or a curious beginner, teamwork and quick thinking will lead you to victory.",
     "Event Heads": [
-      {
-        "Name": "Karthik Devnani",
-        "Class": "1 MCA A",
-        "Contact": "8955337527"
-      },
+      { "Name": "Karthik Devnani", "Class": "1 MCA A", "Contact": "8955337527" },
       { "Name": "Shashi", "Class": "2 MCA A", "Contact": "9823236280" },
       { "Name": "Gokul S", "Class": "2 MCA A", "Contact": "9446535503" }
     ],
     "Team Size": "2",
-    "Prize Pool": 7000,
+      "Prize Pool": 20000,
+      "Prizes": {
+        "First": 10000,
+        "Second": 6000,
+        "Third": 4000
+      },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
@@ -165,20 +195,17 @@
     "Event Name": "SyntaxFall",
     "Description": "Dive into SyntaxFall, a high-pressure coding showdown where broken programs and glitchy algorithms are your battleground. You'll face a series of intentionally bugged code snippets—some with obvious errors, others with deeply hidden flaws—all while a ticking clock ramps up the tension. The catch? You can't rewrite anything; you must debug on the fly using only strategic edits. Caffeine provided. Sanity not guaranteed.",
     "Event Heads": [
-      {
-        "Name": "Annette Elizabeth",
-        "Class": "1 MCA B",
-        "Contact": "9513184401"
-      },
-      {
-        "Name": "Nitish Churiwala",
-        "Class": "2 MCA B",
-        "Contact": "8348713192"
-      },
+      { "Name": "Annette Elizabeth", "Class": "1 MCA B", "Contact": "9513184401" },
+      { "Name": "Nitish Churiwala", "Class": "2 MCA B", "Contact": "8348713192" },
       { "Name": "Priyadharshini", "Class": "2 MSAIM", "Contact": "9819057316" }
     ],
     "Team Size": "2",
-    "Prize Pool": 7000,
+      "Prize Pool": 20000,
+      "Prizes": {
+        "First": 10000,
+        "Second": 6000,
+        "Third": 4000
+      },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
@@ -191,20 +218,22 @@
     "Event Name": "PixelSynth",
     "Description": "Step into PixelSynth, a futuristic UI/UX showdown where designers craft interfaces for technologies that don’t exist yet. You’ll get cryptic prompts like \"Design a dashboard for AI dream analysis\" or \"Create a gesture-based OS for zero-gravity users\"—then rapidly prototype your vision under neon-lit time pressure. Tools don’t matter, but your ability to merge cyberpunk aesthetics with ruthless usability does.",
     "Event Heads": [
-      {
-        "Name": "Rohan Cherian Jacob",
-        "Class": "2 MCA B",
-        "Contact": "6282292458"
-      },
+      { "Name": "Rohan Cherian Jacob", "Class": "2 MCA B", "Contact": "6282292458" },
       { "Name": "Amal Jyothi", "Class": "2 MCA B", "Contact": "7034231762" },
       { "Name": "Meet Virani", "Class": "1 MSAIM", "Contact": "7861944144" }
     ],
     "Team Size": "2",
-    "Prize Pool": 7000,
+      "Prize Pool": 20000,
+      "Prizes": {
+        "First": 10000,
+        "Second": 6000,
+        "Third": 4000
+      },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
     "Eligibility": "PG Computer Science and Data Science"
+
   },
   {
     "Sl No.": 11,
@@ -213,20 +242,22 @@
     "Event Name": "sudo //build",
     "Description": "The corporate overlords have cut the power. The mainframe is bleeding corrupted data across flickering terminals. In this 24-hour descent into digital anarchy, you won't just hack systems—you'll violate them. When the crimson emergency lights flare at midnight, your team will receive a black-box brief containing something morally ambiguous. The judging panel consists of ex-hackers, crypto-anarchists, and one unverified AI entity—all scoring you on creativity, destruction, and how well you exploit the rulebook's gaps.",
     "Event Heads": [
-      {
-        "Name": "Parichoy Nandhi",
-        "Class": "2 MCA A",
-        "Contact": "6295810943"
-      },
+      { "Name": "Parichoy Nandhi", "Class": "2 MCA A", "Contact": "6295810943" },
       { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "" },
       { "Name": "Varun C", "Class": "2 MSAIM", "Contact": "9353853617" },
       { "Name": "Nishit D", "Class": "1 MSAIM", "Contact": "9879580870" }
     ],
     "Team Size": "1-4",
-    "Prize Pool": 20000,
+      "Prize Pool": 41000,
+      "Prizes": {
+        "First": 21000,
+        "Second": 12500,
+        "Third": 7500
+      },
     "Venue": "Online",
     "Date (tentative)": "Sept 26",
     "Registration": "No On-Spot",
     "Eligibility": "PG Computer Science and Data Science"
+
   }
 ]

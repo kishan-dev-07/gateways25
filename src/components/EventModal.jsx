@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import eventLinks from '@/data/eventLinks.json' assert { type: 'json' };
 import { X, Users, MapPin, Calendar, Trophy, Clock } from 'lucide-react';
 import gsap from 'gsap';
 
@@ -11,14 +12,13 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
 
     useEffect(() => {
         const handleWheel = (e) => {
-            // Prevent wheel events from bubbling to background when modal is open
             if (isOpen) {
                 e.stopPropagation();
             }
         };
 
         const handleTouchMove = (e) => {
-            // Prevent touch scroll events from bubbling to background when modal is open
+
             if (isOpen) {
                 e.stopPropagation();
             }
@@ -81,9 +81,14 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
         }
     };
 
+
     const handleRegister = () => {
-        // You can implement registration logic here
-        alert('Registration functionality to be implemented!');
+        const found = eventLinks.find(e => e["Event Name"] === eventData["Event Name"]);
+        if (found && found.Link) {
+            window.open(found.Link, '_blank');
+        } else {
+            alert('Registration link not available for this event.');
+        }
     };
 
     if (!eventData) return null;
@@ -179,6 +184,32 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
                             <div className="text-white font-bold">{eventData["Date (tentative)"]}</div>
                         </div>
                     </div>
+
+                    {/* Prizes Section */}
+                    {eventData.Prizes && (
+                        <div className="mb-8">
+                            <h3 className="text-xl font-bold mb-4 font-mono flex items-center gap-2">
+                                <div className="w-1 h-6 bg-gradient-to-b from-[#00FFFF] via-[#6FFF00] to-[#D4FF00]" />
+                                <span className="bg-gradient-to-r from-[#00FFFF] via-[#6FFF00] to-[#D4FF00] bg-clip-text text-transparent">
+                                    Prizes
+                                </span>
+                            </h3>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div className="bg-black/30 border border-[#D4FF00] rounded-lg p-4 flex flex-col items-center">
+                                    <span className="text-[#D4FF00] font-bold text-lg mb-2">First</span>
+                                    <span className="text-white font-bold text-xl">₹{eventData.Prizes.First.toLocaleString()}</span>
+                                </div>
+                                <div className="bg-black/30 border border-gray-300 rounded-lg p-4 flex flex-col items-center">
+                                    <span className="text-gray-300 font-bold text-lg mb-2">Second</span>
+                                    <span className="text-white font-bold text-xl">₹{eventData.Prizes.Second.toLocaleString()}</span>
+                                </div>
+                                <div className="bg-black/30 border border-[#cd7f32] rounded-lg p-4 flex flex-col items-center">
+                                    <span className="text-[#cd7f32] font-bold text-lg mb-2">Third</span>
+                                    <span className="text-white font-bold text-xl">₹{eventData.Prizes.Third.toLocaleString()}</span>
+                                </div>
+                            </div>
+                        </div>
+                    )}
 
                     {/* Description */}
                     <div className="mb-8">
