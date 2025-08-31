@@ -60,15 +60,16 @@ export default function Loader() {
 
             {/* SVG Mask Overlay */}
             <div className="relative z-10 w-full h-full">
+                {/* Desktop version */}
                 <svg
                     viewBox="0 0"
-                    className="w-full h-full"
+                    className="w-full h-full hidden md:block"
                     style={{
                         maskComposite: 'subtract',
                     }}
                 >
                     <defs>
-                        <mask id="textMask">
+                        <mask id="textMaskDesktop">
                             {/* White background - this will be transparent */}
                             <rect width="100%" height="100%" fill="white" />
 
@@ -108,7 +109,60 @@ export default function Loader() {
                         width="100%"
                         height="100%"
                         fill="black"
-                        mask="url(#textMask)"
+                        mask="url(#textMaskDesktop)"
+                    />
+                </svg>
+
+                {/* Mobile version */}
+                <svg
+                    viewBox="0 0"
+                    className="w-full h-full block md:hidden"
+                    style={{
+                        maskComposite: 'subtract',
+                    }}
+                >
+                    <defs>
+                        <mask id="textMaskMobile">
+                            {/* White background - this will be transparent */}
+                            <rect width="100%" height="100%" fill="white" />
+
+                            {/* Black text - this will show the video */}
+                            <text
+                                x="50%"
+                                y="50%"
+                                textAnchor="middle"
+                                dominantBaseline="middle"
+                                fill="black"
+                                fontSize="50"
+                                fontWeight="bold"
+                                fontFamily="Orbitron, monospace"
+                                letterSpacing="4px"
+                            >
+                                GATEWAYS
+                            </text>
+
+                            <text
+                                x="50%"
+                                y="65%"
+                                textAnchor="middle"
+                                dominantBaseline="middle"
+                                fill="black"
+                                fontSize="40"
+                                fontWeight="normal"
+                                fontFamily="Orbitron, monospace"
+                                letterSpacing="2px"
+                            >
+                                2025
+                            </text>
+                        </mask>
+                    </defs>
+
+                    {/* Black overlay that covers everything except the masked text */}
+                    <rect
+                        width="100%"
+                        height="100%"
+                        fill="black"
+                        mask="url(#textMaskMobile)"
                     />
                 </svg>
             </div>

@@ -4,15 +4,22 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePageTransition } from '@/hooks/usePageTransition'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 
 export default function Navbar() {
   const { startPageTransition } = usePageTransition();
   const router = useRouter();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleNavigation = (href) => {
     startPageTransition(() => {
       router.push(href);
     });
+    setIsMobileMenuOpen(false); // Close mobile menu after navigation
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -29,7 +36,7 @@ export default function Navbar() {
                 height={40}
                 className="mr-2"
               />
-              <span className="text-white font-orbitron font-bold text-2xl">
+              <span className="text-white font-orbitron font-bold text-base sm:text-2xl">
                 GATEWAYS
               </span>
             </Link>
@@ -68,7 +75,7 @@ export default function Navbar() {
                 alt="Christ University Logo"
                 width={150}
                 height={100}
-                className="mr-2"
+                className="mr-2 w-30 h-auto sm:w-28 md:w-32 lg:w-36 xl:w-[150px]"
               />
             </Link>
           </div>
@@ -77,6 +84,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               type="button"
+              onClick={toggleMobileMenu}
               className="text-gray-300 hover:text-white focus:outline-none focus:text-white"
               aria-label="Open menu"
             >
@@ -89,29 +97,32 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu (hidden by default) */}
-      <div className="md:hidden">
-        <div className="px-2 pt-2 pb-3 space-y-1">
-          <button
-            onClick={() => handleNavigation('/events')}
-            className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-left"
-          >
-            Events
-          </button>
-          <button
-            onClick={() => handleNavigation('/about')}
-            className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-left"
-          >
-            About
-          </button>
-          <a href="https://heyzine.com/flip-book/746bdd4368.html" target='_blank'>
-          <button
-            className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-left"
-          >
-            Brochure
-          </button>
-          </a>
+      {isMobileMenuOpen && (
+        <div className="md:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 border-b border-gray-800 backdrop-blur-sm">
+            <button
+              onClick={() => handleNavigation('/events')}
+              className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-center"
+            >
+              Events
+            </button>
+            <button
+              onClick={() => handleNavigation('/about')}
+              className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-center"
+            >
+              About
+            </button>
+            <a href="https://heyzine.com/flip-book/746bdd4368.html" target='_blank'>
+            <button
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer w-full text-center"
+            >
+              Brochure
+            </button>
+            </a>
+          </div>
         </div>
-      </div>
+      )}
     </nav>
   )
 }
