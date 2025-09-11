@@ -1,24 +1,24 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from 'react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import Image from 'next/image'
-import './styles.css'
-import ScrollVideo from '../ScrollVideo'
-import CircularText from '../CircularText'
+import { useEffect, useState } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
+import "./styles.css";
+import ScrollVideo from "../ScrollVideo";
+import CircularText from "../CircularText";
 
 export default function Hero() {
   const [countdown, setCountdown] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
-    seconds: 0
+    seconds: 0,
   });
 
   // Countdown timer effect
   useEffect(() => {
-    const targetDate = new Date('2025-09-25T00:00:00').getTime();
+    const targetDate = new Date("2025-09-25T00:00:00").getTime();
 
     const updateCountdown = () => {
       const now = Date.now();
@@ -26,7 +26,9 @@ export default function Hero() {
 
       if (timeLeft > 0) {
         const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const hours = Math.floor(
+          (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
         const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
@@ -157,7 +159,6 @@ export default function Hero() {
       "<1.2"
     );
 
-
     // logo purple
     tl.fromTo(
       ".hero-text-logo",
@@ -232,7 +233,7 @@ export default function Hero() {
     tl.to(".gateways-logo", {
       opacity: 0,
       duration: 2,
-    })
+    });
 
     tl.set(
       ".hero-2-container",
@@ -299,7 +300,7 @@ export default function Hero() {
 
     // Cleanup function
     return () => {
-      ScrollTrigger.getAll().forEach(t => t.kill());
+      ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);
 
@@ -324,13 +325,16 @@ export default function Hero() {
             fill
             style={{ objectFit: 'cover' }}
           /> */}
-          <video src="/hero.mp4"className="hero-main-image"
+          <video
+            src="/hero.mp4"
+            className="hero-main-image"
             draggable={false}
             alt="hero"
             autoPlay
             loop
             muted
-            style={{ objectFit: 'cover', scale: "1.2" }}></video>
+            style={{ objectFit: "cover", scale: "1.2" }}
+          ></video>
 
           {/* <CircularText
             text="SCROLL*TO*REVEAL*"
@@ -343,26 +347,43 @@ export default function Hero() {
           <div className="hero-text-logo"></div>
           <div>
             <h3 className="hero-text font-orbitron font-bold">
-              Coming<br />
-              Sept 25<br />
+              Coming
+              <br />
+              Sept 25
+              <br />
               2025
             </h3>
-            <div className="countdown-timer font-orbitron text-sm mt-2" style={{ color: '#D4FF00', backgroundImage: 'none', WebkitTextFillColor: '#D4FF00' }}>
+            <div
+              className="countdown-timer font-orbitron text-sm mt-2"
+              style={{
+                color: "#D4FF00",
+                backgroundImage: "none",
+                WebkitTextFillColor: "#D4FF00",
+              }}
+            >
               <div className="flex gap-4 justify-center">
                 <div className="text-center">
-                  <div className="text-lg font-bold">{countdown.days.toString().padStart(2, '0')}</div>
+                  <div className="text-lg font-bold">
+                    {countdown.days.toString().padStart(2, "0")}
+                  </div>
                   <div className="text-xs">DAYS</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg font-bold">{countdown.hours.toString().padStart(2, '0')}</div>
+                  <div className="text-lg font-bold">
+                    {countdown.hours.toString().padStart(2, "0")}
+                  </div>
                   <div className="text-xs">HOURS</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg font-bold">{countdown.minutes.toString().padStart(2, '0')}</div>
+                  <div className="text-lg font-bold">
+                    {countdown.minutes.toString().padStart(2, "0")}
+                  </div>
                   <div className="text-xs">MINS</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg font-bold">{countdown.seconds.toString().padStart(2, '0')}</div>
+                  <div className="text-lg font-bold">
+                    {countdown.seconds.toString().padStart(2, "0")}
+                  </div>
                   <div className="text-xs">SECS</div>
                 </div>
               </div>
@@ -373,24 +394,48 @@ export default function Hero() {
       </div>
       <div className="hero-2-container relative">
         {/* <img src="/gateways-logo.png" alt="gateways logo" className='absolute top-50  left-240 scale-70' /> */}
-        <h3 className='font-orbitron font-bold'>Gateways</h3>
-        <div className='w-full flex justify-between items-center'>
-          <p className='font-content text-justify w-[70%]'>
-            Gateways is the national technical fest, held annually for over 29 years by the Department of Computer Science at CHRIST (Deemed to be University), Bangalore. Organized by students of the post-graduate MCA (Master of Computer Applications) and MSc AI-ML (Artificial Intelligence and Machine Learning) programs, it aims to be at the forefront of innovation and collaboration, with new ideas and events presented each year.
-            We invite colleges from all over India, with enthusiastic participation from those who join us for this gathering of minds. An essential part of Gateways is its robust and dynamic theme, reflecting both current trends and the rich history of the discipline.
+        <h3 className="font-orbitron font-bold">Gateways</h3>
+        <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center">
+          <p className="font-content text-justify w-full md:w-[70%]">
+            Gateways is the national technical fest, held annually for over 29
+            years by the Department of Computer Science at CHRIST (Deemed to be
+            University), Bangalore. Organized by students of the post-graduate
+            MCA (Master of Computer Applications) and MSc AI-ML (Artificial
+            Intelligence and Machine Learning) programs, it aims to be at the
+            forefront of innovation and collaboration, with new ideas and events
+            presented each year. We invite colleges from all over India, with
+            enthusiastic participation from those who join us for this gathering
+            of minds. An essential part of Gateways is its robust and dynamic
+            theme, reflecting both current trends and the rich history of the
+            discipline.
           </p>
-          <img src="/gateways-logo.png" alt="gateways logo" className='w-[25%]' />
+          <img
+            src="/gateways-logo.png"
+            alt="gateways logo"
+            className=" w-[40%] md:w-[25%]"
+          />
         </div>
       </div>
 
       <div className="hero-3-container relative">
-        <h3 className='font-orbitron font-bold'>Neon Nexus</h3>
-        <div className='w-full flex justify-between items-center'>
-          <p className='font-content text-justify w-[70%]'>
-            In the pulsating heart of Nova City, where neon lights cut through the haze and data flows like lifeblood, Neon Nexus transforms Gateways into a living cyberpunk saga. This year’s theme is a convergence of innovation, creativity, and rebellion—a space where coders, creators, and dreamers unite to rewrite the system.
-            Through thrilling competitions and electrifying events, participants will navigate a city shaped by algorithms and alive with possibility. Gateways 2025 invites tech enthusiasts nationwide to step into the grid, embrace the chaos, and become part of the uprising.
+        <h3 className="font-orbitron font-bold">Neon Nexus</h3>
+        <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center">
+          <p className="font-content text-justify w-full md:w-[70%]">
+            In the pulsating heart of Nova City, where neon lights cut through
+            the haze and data flows like lifeblood, Neon Nexus transforms
+            Gateways into a living cyberpunk saga. This year’s theme is a
+            convergence of innovation, creativity, and rebellion—a space where
+            coders, creators, and dreamers unite to rewrite the system. Through
+            thrilling competitions and electrifying events, participants will
+            navigate a city shaped by algorithms and alive with possibility.
+            Gateways 2025 invites tech enthusiasts nationwide to step into the
+            grid, embrace the chaos, and become part of the uprising.
           </p>
-          <img src="/neon-nexus.png" alt="nn logo" className='nn-logo w-[25%]' />
+          <img
+            src="/neon-nexus.png"
+            alt="nn logo"
+            className="nn-logo w-[50%] md:w-[25%]"
+          />
         </div>
       </div>
       {/* <div className="hero-4-container relative">

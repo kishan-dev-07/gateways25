@@ -10,17 +10,26 @@
       { "Name": "Shreya G", "Class": "1 MSAIM", "Contact": "8903472125" },
       { "Name": "Rahul Gupta", "Class": "1 MCA B", "Contact": "7506732498" }
     ],
+    "Rules": [
+      "Participation is open to individuals or teams of 2 members",
+      "Usage of a device/any other means that provide an unfair advantage will result in immediate disqualification of the team",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "Basic Computer Science Knowledge",
+      "General IT and Technology Awareness"
+    ],
     "Team Size": "2",
-      "Prize Pool": 20000,
-      "Prizes": {
-        "First": 10000,
-        "Second": 6000,
-        "Third": 4000
-      },
+    "Prize Pool": 20000,
+    "Prizes": {
+      "First": 10000,
+      "Second": 6000,
+      "Third": 4000
+    },
     "Venue": "Assembly Hall",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 2,
@@ -33,17 +42,22 @@
       { "Name": "Samuel Shine", "Class": "1 MCA A", "Contact": "7899412346" },
       { "Name": "Isha", "Class": "2 MCA B", "Contact": "9137778487" }
     ],
+    "Rules": [
+      "Each participant must register individually",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": ["Communication Skills", "Courage and Attitude"],
     "Team Size": "1",
-      "Prize Pool": 7500,
-      "Prizes": {
-        "First": 4000,
-        "Second": 2500,
-        "Third": 1000
-      },
+    "Prize Pool": 7500,
+    "Prizes": {
+      "First": 4000,
+      "Second": 2500,
+      "Third": 1000
+    },
     "Venue": "Seminar Hall",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 3,
@@ -52,22 +66,41 @@
     "Event Name": "Vault 404",
     "Description": "The steel door seals behind you with a sound like a database corruption. Step into the unknown with Vault 404, an unpredictable experience where the only rule is to expect the unexpected. This surprise-packed challenge will push contestants far beyond their comfort zones through a series of curveballs, spontaneous scenarios, and reality-bending twists. No technical skills required—just raw quick-thinking, creativity, and the ability to thrive in chaos. One moment you might be negotiating with a mysterious character, the next you're solving bizarre puzzles under time pressure, or improvising your way through completely absurd situations.",
     "Event Heads": [
-      { "Name": "Akhil Kumar Gope", "Class": "2 MCA A", "Contact": "8777861147" },
+      {
+        "Name": "Akhil Kumar Gope",
+        "Class": "2 MCA A",
+        "Contact": "8777861147"
+      },
       { "Name": "Bharat Harshan", "Class": "2 MCA B", "Contact": "8075334144" },
       { "Name": "R Karan", "Class": "1 MCA B", "Contact": "9971012177" },
-      { "Name": "Saumya Sahil linda", "Class": "1 MSAIM", "Contact": "8789494739" }
+      {
+        "Name": "Saumya Sahil linda",
+        "Class": "1 MSAIM",
+        "Contact": "8789494739"
+      }
+    ],
+    "Rules": [
+      "Teams can have a maximum of 2 members",
+      "No mobile phones or outside help allowed",
+      "Judges' decisions are final and binding",
+      "All participants must arrive 15 minutes prior to the event start time",
+      "If there's a tie in points, a tie-breaker round will be held in order to determine the winner"
+    ],
+    "Prerequisites": [
+      "Ability to solve puzzles and think creatively",
+      "Participants must be able to engage in light physical activities"
     ],
     "Team Size": "2-4",
-      "Prize Pool": 11500,
-      "Prizes": {
-        "First": 6000,
-        "Second": 3500,
-        "Third": 2000
-      },
+    "Prize Pool": 11500,
+    "Prizes": {
+      "First": 6000,
+      "Second": 3500,
+      "Third": 2000
+    },
     "Venue": "815",
     "Date (tentative)": "Sept 26",
     "Registration": "No On-Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 4,
@@ -81,18 +114,27 @@
       { "Name": "Joshua Joby", "Class": "1 MCA A", "Contact": "9606827876" },
       { "Name": "Yeshwanth S", "Class": "2 MSAIM", "Contact": "9445571303" }
     ],
+    "Rules": [
+      "No mobile phones or outside help allowed",
+      "Judges' decisions are final",
+      "Clues must not be shared with other teams",
+      "Usage of any unfair means will result in immediate disqualification"
+    ],
+    "Prerequisites": [
+      "Ability to solve puzzles and think creatively",
+      "Able to perform light physical activities"
+    ],
     "Team Size": "2-4",
-      "Prize Pool": 27500,
-      "Prizes": {
-        "First": 14000,
-        "Second": 8500,
-        "Third": 5000
-      },
+    "Prize Pool": 27500,
+    "Prizes": {
+      "First": 14000,
+      "Second": 8500,
+      "Third": 5000
+    },
     "Venue": "911",
     "Date (tentative)": "Sept 25",
     "Registration": "No On-Spot",
-    "Eligibility": "PG Computer Science and Data Science"
-
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 5,
@@ -106,18 +148,26 @@
       { "Name": "Alen Babu T", "Class": "1 MSAIM", "Contact": "9544211839" },
       { "Name": "Sourav", "Class": "1 MCA B", "Contact": "8884354953" }
     ],
+    "Rules": [
+      "Teams must consist of 4 members for BGMI. FIFA will be an individual event.",
+      "Judges' decisions are final",
+      "Participants should bring their own gaming gear for mobile games"
+    ],
+    "Prerequisites": [
+      "A valid BGMI account, if participating in BGMI",
+      "Mobile phones and chargers must be carried by the participants if participating in BGMI"
+    ],
     "Team Size": "1-4",
-      "Prize Pool": 27500,
-      "Prizes": {
-        "First": 14000,
-        "Second": 8500,
-        "Third": 5000
-      },
+    "Prize Pool": 27500,
+    "Prizes": {
+      "First": 14000,
+      "Second": 8500,
+      "Third": 5000
+    },
     "Venue": "814",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
-
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 6,
@@ -130,17 +180,26 @@
       { "Name": "Neha K", "Class": "1 MSAIM", "Contact": "8754626295" },
       { "Name": "Ayur", "Class": "2 MCA A", "Contact": "7263817112" }
     ],
+    "Rules": [
+      "It is an individual event",
+      "Photos must be taken during the event using the surroundings available at the venue",
+      "Editing is optional but should be minimal (basic color correction or cropping)",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "Participants should bring their own cameras or smartphones"
+    ],
     "Team Size": "1",
-      "Prize Pool": 5500,
-      "Prizes": {
-        "First": 3000,
-        "Second": 1500,
-        "Third": 1000
-      },
+    "Prize Pool": 5500,
+    "Prizes": {
+      "First": 3000,
+      "Second": 1500,
+      "Third": 1000
+    },
     "Venue": "Briefing in 815",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students from all disciplines."
   },
   {
     "Sl No.": 7,
@@ -153,17 +212,25 @@
       { "Name": "Akashdeep Dey", "Class": "1 MCA B", "Contact": "9051081699" },
       { "Name": "Sachin D", "Class": "1 MCA B", "Contact": "9901952488" }
     ],
+    "Rules": [
+      "Participants must build their own IoT project",
+      "The participants must come with their physical model based on their ideas",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "The participants should build and bring their own IoT project that benefits society"
+    ],
     "Team Size": "1-3",
-      "Prize Pool": 34500,
-      "Prizes": {
-        "First": 17500,
-        "Second": 11000,
-        "Third": 6000
-      },
+    "Prize Pool": 34500,
+    "Prizes": {
+      "First": 17500,
+      "Second": 11000,
+      "Third": 6000
+    },
     "Venue": "815",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
-    "Eligibility": "PG CS and Electronics"
+    "Eligibility": "Postgraduate students pursuing degrees in Computer Science, Data Science, Information Technology, Artificial Intelligence and Machine Learning, or other closely related fields, and MCA programs, along with final-year B.Tech, BSc and MSc Electronics Students."
   },
   {
     "Sl No.": 8,
@@ -172,21 +239,34 @@
     "Event Name": "NodeRaid",
     "Description": "Gear up for CTF NodeRaid, a fast-paced cybersecurity showdown where teams race to hack, defend, and conquer a network of vulnerable nodes! Crack passwords, exploit hidden flaws, and capture digital flags—all while protecting your own node from rival attacks. With real-world hacking scenarios and escalating difficulty levels, this is your chance to test your skills in a safe but thrilling cyber-battlefield. Whether you're a seasoned hacker or a curious beginner, teamwork and quick thinking will lead you to victory.",
     "Event Heads": [
-      { "Name": "Karthik Devnani", "Class": "1 MCA A", "Contact": "8955337527" },
+      {
+        "Name": "Karthik Devnani",
+        "Class": "1 MCA A",
+        "Contact": "8955337527"
+      },
       { "Name": "Shashi", "Class": "2 MCA A", "Contact": "9823236280" },
       { "Name": "Gokul S", "Class": "2 MCA A", "Contact": "9446535503" }
     ],
+    "Rules": [
+      "Teams must be made up of 2 members",
+      "Sharing information or discussing with members of other teams is strictly prohibited",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "Basic knowledge of encryption and decryption techniques",
+      "Competence in using command-line tools"
+    ],
     "Team Size": "2",
-      "Prize Pool": 20000,
-      "Prizes": {
-        "First": 10000,
-        "Second": 6000,
-        "Third": 4000
-      },
+    "Prize Pool": 20000,
+    "Prizes": {
+      "First": 10000,
+      "Second": 6000,
+      "Third": 4000
+    },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students pursuing degrees in Computer Science, Data Science, Information Technology, Artificial Intelligence and Machine Learning, or other closely related fields, and MCA programs. "
   },
   {
     "Sl No.": 9,
@@ -195,21 +275,38 @@
     "Event Name": "SyntaxFall",
     "Description": "Dive into SyntaxFall, a high-pressure coding showdown where broken programs and glitchy algorithms are your battleground. You'll face a series of intentionally bugged code snippets—some with obvious errors, others with deeply hidden flaws—all while a ticking clock ramps up the tension. The catch? You can't rewrite anything; you must debug on the fly using only strategic edits. Caffeine provided. Sanity not guaranteed.",
     "Event Heads": [
-      { "Name": "Annette Elizabeth", "Class": "1 MCA B", "Contact": "9513184401" },
-      { "Name": "Nitish Churiwala", "Class": "2 MCA B", "Contact": "8348713192" },
+      {
+        "Name": "Annette Elizabeth",
+        "Class": "1 MCA B",
+        "Contact": "9513184401"
+      },
+      {
+        "Name": "Nitish Churiwala",
+        "Class": "2 MCA B",
+        "Contact": "8348713192"
+      },
       { "Name": "Priyadharshini", "Class": "2 MSAIM", "Contact": "9819057316" }
     ],
+    "Rules": [
+      "Teams can have a maximum of 2 members",
+      "No outside help is allowed",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "Each team must have a valid HackerRank account",
+      "Programming knowledge"
+    ],
     "Team Size": "2",
-      "Prize Pool": 20000,
-      "Prizes": {
-        "First": 10000,
-        "Second": 6000,
-        "Third": 4000
-      },
+    "Prize Pool": 20000,
+    "Prizes": {
+      "First": 10000,
+      "Second": 6000,
+      "Third": 4000
+    },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 26",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
+    "Eligibility": "Participation is open to postgraduate students pursuing degrees in Computer Science, Data Science, Information Technology, Artificial Intelligence and Machine Learning, or other closely related fields, and MCA programs."
   },
   {
     "Sl No.": 10,
@@ -218,22 +315,34 @@
     "Event Name": "PixelSynth",
     "Description": "Step into PixelSynth, a futuristic UI/UX showdown where designers craft interfaces for technologies that don’t exist yet. You’ll get cryptic prompts like \"Design a dashboard for AI dream analysis\" or \"Create a gesture-based OS for zero-gravity users\"—then rapidly prototype your vision under neon-lit time pressure. Tools don’t matter, but your ability to merge cyberpunk aesthetics with ruthless usability does.",
     "Event Heads": [
-      { "Name": "Rohan Cherian Jacob", "Class": "2 MCA B", "Contact": "6282292458" },
+      {
+        "Name": "Rohan Cherian Jacob",
+        "Class": "2 MCA B",
+        "Contact": "6282292458"
+      },
       { "Name": "Amal Jyothi", "Class": "2 MCA B", "Contact": "7034231762" },
       { "Name": "Meet Virani", "Class": "1 MSAIM", "Contact": "7861944144" }
     ],
+    "Rules": [
+      "Up to 2 members per team",
+      "Judges' decisions are final",
+      "Teams have to create their own design during the event. Pre-made designs are not accepted"
+    ],
+    "Prerequisites": [
+      "Basic knowledge of working with UI tools",
+      "Technical knowledge to implement the design"
+    ],
     "Team Size": "2",
-      "Prize Pool": 20000,
-      "Prizes": {
-        "First": 10000,
-        "Second": 6000,
-        "Third": 4000
-      },
+    "Prize Pool": 20000,
+    "Prizes": {
+      "First": 10000,
+      "Second": 6000,
+      "Third": 4000
+    },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
     "Registration": "On Spot",
-    "Eligibility": "PG Computer Science and Data Science"
-
+    "Eligibility": "Participation is open to postgraduate students pursuing degrees in Computer Science, Data Science, Information Technology, Artificial Intelligence and Machine Learning, or other closely related fields, and MCA programs. "
   },
   {
     "Sl No.": 11,
@@ -244,20 +353,35 @@
     "Event Heads": [
       { "Name": "Parichoy Nandhi", "Class": "2 MCA A", "Contact": "6295810943" },
       { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "8383093272" },
+      {
+        "Name": "Parichoy Nandhi",
+        "Class": "2 MCA A",
+        "Contact": "6295810943"
+      },
+      { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "8383093272" },
       { "Name": "Varun C", "Class": "2 MSAIM", "Contact": "9353853617" },
       { "Name": "Nishit D", "Class": "1 MSAIM", "Contact": "9879580870" }
     ],
+    "Rules": [
+      "Teams must consist of 2-4 members",
+      "Registration for the event is exclusively online",
+      "All submissions must be the original work of the participating teams. Plagiarism or the use of pre-built templates or code without citation will result in disqualification.",
+      "Judges' decisions are final"
+    ],
+    "Prerequisites": [
+      "Participants must have access to a reliable internet connection, laptops or PCs with the necessary development environments, tools, and software relevant to their project.",
+      "Teams should be prepared to use online communication tools"
+    ],
     "Team Size": "1-4",
-      "Prize Pool": 41000,
-      "Prizes": {
-        "First": 21000,
-        "Second": 12500,
-        "Third": 7500
-      },
+    "Prize Pool": 41000,
+    "Prizes": {
+      "First": 21000,
+      "Second": 12500,
+      "Third": 7500
+    },
     "Venue": "Online",
     "Date (tentative)": "Sept 26",
     "Registration": "No On-Spot",
-    "Eligibility": "PG Computer Science and Data Science"
-
+    "Eligibility": "All Undergraduate and postgraduate students across any disciplines, along with final-year B.Tech students."
   }
 ]
