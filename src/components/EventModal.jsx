@@ -324,9 +324,9 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
                     <div className="text-white font-semibold mb-1">
                       {head.Name}
                     </div>
-                    <div className="text-gray-400 text-sm mb-2">
+                    {/* <div className="text-gray-400 text-sm mb-2">
                       {head.Class}
-                    </div>
+                    </div> */}
                     {head.Contact && (
                       <div className="text-cyan-400 text-sm font-mono">
                         {head.Contact}

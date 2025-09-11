@@ -36,7 +36,7 @@
     "Events": "IT Manager",
     "Type": "Non-Tech",
     "Event Name": "Neon Handshake",
-    "Description": "The elevator doors hiss open to reveal a lounge bathed in sickly violet light. Your augmented reality overlay flickers - was that a glitch, or did the person you just shook hands with have no corporate profile? At Neon Handshake, IT managers and tech leaders connect in a revolutionary networking event that blends high-stakes business with immersive atmosphere. Your handshake literally glows as you meet potential collaborators, while augmented reality displays reveal real-time professional insights about everyone in the room. The space transforms into an electrifying mix of nightclub energy and corporate strategy session, where deals materialize through smart contracts, digital tokens replace business cards, and your reputation score fluctuates with every interaction.",
+    "Description": "The elevator doors his open to reveal a lounge bathed in sickly violet light. Your augmented reality overlay flickers - was that a glitch, or did the person you just shook hands with have no corporate profile? At Neon Handshake, IT managers and tech leaders connect in a revolutionary networking event that blends high-stakes business with immersive atmosphere. Your handshake literally glows as you meet potential collaborators, while augmented reality displays reveal real-time professional insights about everyone in the room. The space transforms into an electrifying mix of nightclub energy and corporate strategy session, where deals materialize through smart contracts, digital tokens replace business cards, and your reputation score fluctuates with every interaction.",
     "Event Heads": [
       { "Name": "Robin Rajesh", "Class": "2 MSAIM", "Contact": "8369500694" },
       { "Name": "Samuel Shine", "Class": "1 MCA A", "Contact": "7899412346" },
@@ -351,7 +351,11 @@
     "Event Name": "sudo //build",
     "Description": "The corporate overlords have cut the power. The mainframe is bleeding corrupted data across flickering terminals. In this 24-hour descent into digital anarchy, you won't just hack systems—you'll violate them. When the crimson emergency lights flare at midnight, your team will receive a black-box brief containing something morally ambiguous. The judging panel consists of ex-hackers, crypto-anarchists, and one unverified AI entity—all scoring you on creativity, destruction, and how well you exploit the rulebook's gaps.",
     "Event Heads": [
-      { "Name": "Parichoy Nandhi", "Class": "2 MCA A", "Contact": "6295810943" },
+      {
+        "Name": "Parichoy Nandhi",
+        "Class": "2 MCA A",
+        "Contact": "6295810943"
+      },
       { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "8383093272" },
       { "Name": "Varun C", "Class": "2 MSAIM", "Contact": "9353853617" },
       { "Name": "Nishit D", "Class": "1 MSAIM", "Contact": "9879580870" }

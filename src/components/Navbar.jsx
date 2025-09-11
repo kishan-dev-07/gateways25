@@ -46,8 +46,15 @@ export default function Navbar() {
   };
 
   function Banner() {
+    // After 20th September, change the link to events page, when hackathon overs
+    // Show hackathon message before 20th September, else show event message
+    const today = new Date();
+
+    const hackathonDate = new Date(today.getFullYear(), 8, 19); // September is month 8 (0-indexed)
     const marqueeText =
-      "🚀 Hackathon starts on 19th September, Click here to register! 🚀";
+      today < hackathonDate
+        ? "🚀 Hackathon starts on 19th September | Prize Pool: ₹41,000 | Click here to register! 🚀"
+        : "🎉 Gateways Events are live! Prize Pool: ₹41,000 | Explore all events and join the fun! 🎉";
 
     return (
       <div

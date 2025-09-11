@@ -12,7 +12,7 @@ const slides = [
     slideTitle: "Neon Handshake",
     slideDescription:
       "Revolutionary networking event blending business with immersive atmosphere. Connect with augmented reality and smart contracts.",
-    slideTags: ["Networking", "AR"],
+    slideTags: ["IT Manager", "Networking"],
     slideImg: "/carousel/2.png",
     eventId: 2, // Corresponds to IT Manager
     type: "Non-Technical",
@@ -21,7 +21,7 @@ const slides = [
     slideTitle: "Vault 404",
     slideDescription:
       "An unpredictable experience where the only rule is to expect the unexpected. Reality-bending twists and spontaneous challenges await.",
-    slideTags: ["Surprise", "Mystery"],
+    slideTags: ["Surprise Event", "Mystery"],
     slideImg: "/carousel/3.png",
     eventId: 3, // Corresponds to Surprise Event
     type: "Non-Technical",
@@ -57,7 +57,7 @@ const slides = [
     slideTitle: "NexusNet",
     slideDescription:
       "Smart devices wake up before you touch them. Build connected IoT systems while the network topology shifts unpredictably.",
-    slideTags: ["IoT", "Hardware"],
+    slideTags: ["IOT", "Hardware"],
     slideImg: "/carousel/7.png",
     eventId: 7, // Corresponds to IOT
     type: "Technical",

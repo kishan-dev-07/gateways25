@@ -302,7 +302,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="containers">
+    <div className="container">
       <div className="overlay"></div>
       <div className="hero-1-container relative">
         <div className="hero-main-container">
