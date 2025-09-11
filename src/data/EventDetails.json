@@ -353,12 +353,6 @@
     "Event Heads": [
       { "Name": "Parichoy Nandhi", "Class": "2 MCA A", "Contact": "6295810943" },
       { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "8383093272" },
-      {
-        "Name": "Parichoy Nandhi",
-        "Class": "2 MCA A",
-        "Contact": "6295810943"
-      },
-      { "Name": "Kanika Jain", "Class": "1 MCA A", "Contact": "8383093272" },
       { "Name": "Varun C", "Class": "2 MSAIM", "Contact": "9353853617" },
       { "Name": "Nishit D", "Class": "1 MSAIM", "Contact": "9879580870" }
     ],
@@ -380,7 +374,7 @@
       "Third": 7500
     },
     "Venue": "Online",
-    "Date (tentative)": "Sept 26",
+    "Date (tentative)": "Sept 19",
     "Registration": "No On-Spot",
     "Eligibility": "All Undergraduate and postgraduate students across any disciplines, along with final-year B.Tech students."
   }
