@@ -13,8 +13,8 @@ export function LampDemo() {
   const developerImages = [
     { name: "Kishan Kumar", image: "/about/kishan (1)_Nero_AI_Image_Denoiser.jpeg.jpg" },
     { name: "Tushar Ghosh", image: "/about/tushar.jpg" },
-    { name: "Darshan Heble", image: "/about/placeholder.svg" },
-    { name: "Vyshnavi K", image: "/about/placeholder.svg" }
+    { name: "Darshan Heble", image: "/about/darshan.jpg" },
+    { name: "Vyshnavi K", image: "/about/vyshnavi.jpg" }
   ];
 
   const coreTeamImages = [
@@ -24,12 +24,12 @@ export function LampDemo() {
     { name: "Ashish Khetal", image: "/about/ashish.jpeg.jpg" },
     { name: "Saumya", image: "/about/Saumya.jpg" },
     { name: "Vivek", image: "/about/Vivek.jpeg.jpg" },
-    { name: "Angel Blessy", image: "/about/placeholder.svg" },
-    { name: "Smitha M", image: "/about/placeholder.svg" },
-    { name: "Hitesh Kumar", image: "/about/placeholder.svg" },
-    { name: "Abhinav Jain", image: "/about/placeholder.svg" },
-    { name: "Shambhavi Sinha", image: "/about/placeholder.svg" },
-    { name: "Hari Prasad B K", image: "/about/placeholder.svg" }
+    { name: "Angel Blessy", image: "/about/angel.jpg" },
+    { name: "Smitha M", image: "/about/smitha.jpg" },
+    { name: "Hitesh Kumar", image: "/about/hitesh.jpg" },
+    { name: "Abhinav Jain", image: "/about/abhinav.jpg" },
+    { name: "Shambhavi Sinha", image: "/about/shambhavi.jpg" },
+    { name: "Hari Prasad B K", image: "/about/hariprasad.jpg" }
   ];
 
   return (
