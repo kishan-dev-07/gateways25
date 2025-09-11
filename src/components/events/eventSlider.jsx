@@ -115,6 +115,17 @@ const SliderComponent = () => {
           </div>
         </div>
 
+        <div
+          className="absolute top-20 left-10 px-4 py-2 rounded-md font-orbitron text-[#D4FF00] border border-[#D4FF00] bg-black/60 shadow-lg text-lg tracking-widest"
+          style={{
+            // boxShadow: "0 0 16px #D4FF00, 0 0 4px #00FFF0 inset",
+            letterSpacing: "0.15em",
+            textShadow: "0 0 8px #D4FF00, 0 0 2px #00FFF0",
+          }}
+        >
+          {slideData.type}
+        </div>
+
         <div className={styles.slideInfo}>
           <div className={styles.slideTags}>
             <p>Tags: </p>
