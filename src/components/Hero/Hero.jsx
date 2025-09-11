@@ -3,10 +3,7 @@
 import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Image from "next/image";
 import "./styles.css";
-import ScrollVideo from "../ScrollVideo";
-import CircularText from "../CircularText";
 
 export default function Hero() {
   const [countdown, setCountdown] = useState({
