@@ -35,6 +35,27 @@ export function LampDemo() {
     { name: "Hari Prasad B K", image: "/about/hariprasad.jpg" },
   ];
 
+  // Committee Heads: Extracted from CSV 'Committee Incharge' column
+  const committeeHeads = [
+    "Debin",
+    "Vishal S",
+    "Kuruvilla",
+    "Vyshnavi",
+    "Vidya",
+    "Jithu",
+    "Ajin",
+    "Pratiksha Naik",
+    "Alwin",
+    "Gabriel",
+    "Abhimanyu",
+    "Shoun",
+    "Sumith",
+    "Triny",
+    "Soujanya",
+    "Athira CM",
+    "Robin"
+  ];
+
   return (
     <>
       <LampContainer className="pt-70">
@@ -185,6 +206,50 @@ export function LampDemo() {
                   {member.name}
                 </div>
               )}
+            </motion.div>
+          ))}
+        </div>
+      </LampContainer>
+
+            {/* Section 4: Committee Heads */}
+      <LampContainer className="mt-[-8rem] min-h-[80vh] pt-85">
+        <motion.h2
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.8,
+            ease: "easeInOut",
+          }}
+          className="mt-4 bg-gradient-to-br from-white to-white py-4 bg-clip-text text-center text-3xl font-medium tracking-tight text-transparent md:text-5xl pt-50 font-orbitron"
+        >
+          Committee Heads
+        </motion.h2>
+        <motion.p
+          initial={{ opacity: 0.5, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
+          className="mt-4 text-lg text-cyan-200 text-center max-w-2xl mx-auto"
+        >
+        </motion.p>
+        {/* Only names, no images */}
+        <div className="mt-12 flex flex-wrap gap-8 justify-center items-center">
+          {committeeHeads.map((name, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0.5, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 0.2 + i * 0.07,
+                duration: 0.7,
+                ease: "easeInOut",
+              }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-slate-800 to-slate-900 shadow-lg rounded-xl w-[220px] h-[100px] md:w-[260px] md:h-[110px] flex flex-col items-center justify-center text-cyan-200 text-xl font-semibold border border-cyan-400/30 overflow-hidden"
+            >
+              <div className="flex items-center justify-center h-full w-full">
+                {name}
+              </div>
             </motion.div>
           ))}
         </div>
