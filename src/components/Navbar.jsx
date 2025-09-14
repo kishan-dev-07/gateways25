@@ -53,8 +53,8 @@ export default function Navbar() {
     const hackathonDate = new Date(today.getFullYear(), 8, 19); // September is month 8 (0-indexed)
     const marqueeText =
       today < hackathonDate
-        ? "🚀 Hackathon starts on 19th September | Prize Pool: ₹41,000 | Click here to register! 🚀"
-        : "🎉 Gateways Events are live! Prize Pool: ₹41,000 | Explore all events and join the fun! 🎉";
+        ? "🚀 Hackathon starts on 19th September | Prize Pool: ₹63,000 | Click here to register! 🚀"
+        : "🎉 Gateways Events are live! Prize Pool: ₹63,000 | Explore all events and join the fun! 🎉";
 
     return (
       <div
