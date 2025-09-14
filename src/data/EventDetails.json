@@ -20,9 +20,9 @@
       "General IT and Technology Awareness"
     ],
     "Team Size": "2",
-    "Prize Pool": 20000,
+    "Prize Pool": 19500,
     "Prizes": {
-      "First": 10000,
+      "First": 9500,
       "Second": 6000,
       "Third": 4000
     },
@@ -48,11 +48,11 @@
     ],
     "Prerequisites": ["Communication Skills", "Courage and Attitude"],
     "Team Size": "1",
-    "Prize Pool": 7500,
+    "Prize Pool": 9000,
     "Prizes": {
-      "First": 4000,
+      "First": 5000,
       "Second": 2500,
-      "Third": 1000
+      "Third": 1500
     },
     "Venue": "Seminar Hall",
     "Date (tentative)": "Sept 26",
@@ -91,9 +91,9 @@
       "Participants must be able to engage in light physical activities"
     ],
     "Team Size": "2-4",
-    "Prize Pool": 11500,
+    "Prize Pool": 11000,
     "Prizes": {
-      "First": 6000,
+      "First": 5500,
       "Second": 3500,
       "Third": 2000
     },
@@ -125,11 +125,11 @@
       "Able to perform light physical activities"
     ],
     "Team Size": "2-4",
-    "Prize Pool": 27500,
+    "Prize Pool": 19000,
     "Prizes": {
-      "First": 14000,
-      "Second": 8500,
-      "Third": 5000
+      "First": 9000,
+      "Second": 6000,
+      "Third": 4000
     },
     "Venue": "911",
     "Date (tentative)": "Sept 25",
@@ -221,11 +221,11 @@
       "The participants should build and bring their own IoT project that benefits society"
     ],
     "Team Size": "1-3",
-    "Prize Pool": 34500,
+    "Prize Pool": 19500,
     "Prizes": {
-      "First": 17500,
-      "Second": 11000,
-      "Third": 6000
+      "First": 9500,
+      "Second": 6000,
+      "Third": 4000
     },
     "Venue": "815",
     "Date (tentative)": "Sept 26",
@@ -257,11 +257,11 @@
       "Competence in using command-line tools"
     ],
     "Team Size": "2",
-    "Prize Pool": 20000,
+    "Prize Pool": 28500,
     "Prizes": {
-      "First": 10000,
-      "Second": 6000,
-      "Third": 4000
+      "First": 14000,
+      "Second": 8500,
+      "Third": 6000
     },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
@@ -297,11 +297,11 @@
       "Programming knowledge"
     ],
     "Team Size": "2",
-    "Prize Pool": 20000,
+    "Prize Pool": 28500,
     "Prizes": {
-      "First": 10000,
-      "Second": 6000,
-      "Third": 4000
+      "First": 14000,
+      "Second": 8500,
+      "Third": 6000
     },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 26",
@@ -333,11 +333,11 @@
       "Technical knowledge to implement the design"
     ],
     "Team Size": "2",
-    "Prize Pool": 20000,
+    "Prize Pool": 19000,
     "Prizes": {
-      "First": 10000,
+      "First": 9500,
       "Second": 6000,
-      "Third": 4000
+      "Third": 3500
     },
     "Venue": "MCA Lab",
     "Date (tentative)": "Sept 25",
@@ -371,11 +371,11 @@
       "Teams should be prepared to use online communication tools"
     ],
     "Team Size": "1-4",
-    "Prize Pool": 41000,
+    "Prize Pool": 63000,
     "Prizes": {
-      "First": 21000,
-      "Second": 12500,
-      "Third": 7500
+      "First": 35000,
+      "Second": 19000,
+      "Third": 9000
     },
     "Venue": "Online",
     "Date (tentative)": "Sept 19",
