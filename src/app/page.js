@@ -11,6 +11,7 @@ import Events from "@/components/events";
 import SponsorsMarquee from "@/components/marquee";
 import Footer from "@/components/footer";
 import RegistrationProcess from "@/components/registrationProcess";
+import Accommodation from "@/components/Accommodation";
 import Contact from "@/components/contact";
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
         {/* <Hero /> */}
         <Events />
         <RegistrationProcess />
+        <Accommodation />
         {/* <SponsorsMarquee /> */}
         <Contact />
         <Footer />
