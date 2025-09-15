@@ -352,7 +352,7 @@
     "Description": "The corporate overlords have cut the power. The mainframe is bleeding corrupted data across flickering terminals. In this 24-hour descent into digital anarchy, you won't just hack systems—you'll violate them. When the crimson emergency lights flare at midnight, your team will receive a black-box brief containing something morally ambiguous. The judging panel consists of ex-hackers, crypto-anarchists, and one unverified AI entity—all scoring you on creativity, destruction, and how well you exploit the rulebook's gaps.",
     "Event Heads": [
       {
-        "Name": "Parichoy Nandhi",
+        "Name": "Parichoy Nandi",
         "Class": "2 MCA A",
         "Contact": "6295810943"
       },
@@ -380,6 +380,6 @@
     "Venue": "Online",
     "Date (tentative)": "Sept 19",
     "Registration": "No On-Spot",
-    "Eligibility": "All Undergraduate and postgraduate students across any disciplines, along with final-year B.Tech students."
+    "Eligibility": "Open to all students with Computer Science background including Undergraduate (UG), Postgraduate (PG), B.Tech, and M.Tech students from Computer Science, Information Technology, or other closely related fields."
   }
 ]
