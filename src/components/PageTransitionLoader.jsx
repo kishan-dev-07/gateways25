@@ -122,10 +122,12 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                     zIndex: 10
                 }}
             >
+                {/* Black background overlay */}
+                <div className="absolute inset-0 w-full h-full bg-black z-0" />
                 {/* Background Video - Left Half */}
                 <video
                     ref={videoRefLeft}
-                    className="absolute inset-0 w-[200%] h-full object-cover"
+                    className="absolute inset-0 w-[200%] h-full object-cover z-10"
                     style={{ left: '0%' }}
                     autoPlay
                     loop
@@ -135,40 +137,46 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                     <source src="/loader.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-
+                {/* Black overlays above and below the text band */}
+                <div className="absolute left-0 w-full z-20 pointer-events-none" style={{ top: 0, height: '44%' }}>
+                    <div className="w-full h-full bg-black" />
+                </div>
+                <div className="absolute left-0 w-full z-20 pointer-events-none" style={{ top: '62%', height: '38%' }}>
+                    <div className="w-full h-full bg-black" />
+                </div>
                 {/* SVG Mask Overlay - Left Half */}
-                <div className="relative z-10 w-full h-full">
+                <div className="absolute inset-0 w-full h-full z-30 pointer-events-none">
                     <svg
-                        viewBox="0 0 100 100"
+                        viewBox="0 0 400 200"
                         className="w-full h-full"
-                        preserveAspectRatio="xMidYMid slice"
+                        preserveAspectRatio="xMidYMid meet"
                     >
                         <defs>
                             <mask id="textMaskLeftTransition">
                                 <rect width="100%" height="100%" fill="white" />
                                 <text
-                                    x="100%"
-                                    y="50%"
+                                    x="98%"
+                                    y="54%"
                                     textAnchor="end"
                                     dominantBaseline="middle"
                                     fill="black"
-                                    fontSize="12"
+                                    fontSize="90"
                                     fontWeight="bold"
                                     fontFamily="Orbitron, monospace"
-                                    letterSpacing="0.8"
+                                    letterSpacing="8"
                                 >
                                     GATE
                                 </text>
                                 <text
-                                    x="100%"
-                                    y="65%"
+                                    x="98%"
+                                    y="75%"
                                     textAnchor="end"
                                     dominantBaseline="middle"
                                     fill="black"
-                                    fontSize="6"
+                                    fontSize="40"
                                     fontWeight="normal"
                                     fontFamily="Orbitron, monospace"
-                                    letterSpacing="0.4"
+                                    letterSpacing="4"
                                 >
                                     20
                                 </text>
@@ -179,6 +187,14 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                             height="100%"
                             fill="black"
                             mask="url(#textMaskLeftTransition)"
+                        />
+                        {/* The video will show only through the mask (text) */}
+                        <rect
+                            width="100%"
+                            height="100%"
+                            fill="white"
+                            mask="url(#textMaskLeftTransition)"
+                            style={{ mixBlendMode: 'multiply' }}
                         />
                     </svg>
                 </div>
@@ -194,15 +210,16 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                     zIndex: 10
                 }}
             >
+                {/* Black background overlay */}
+                <div className="absolute inset-0 w-full h-full bg-black z-0" />
                 {/* Spinner - Right */}
                 <div className="absolute bottom-10 right-10 z-20">
                     <div className="w-20 h-20 border-4 border-transparent text-[#D4FF00] border-t-[#D4FF00] rounded-full animate-spin"></div>
                 </div>
-
                 {/* Background Video - Right Half */}
                 <video
                     ref={videoRefRight}
-                    className="absolute inset-0 w-[200%] h-full object-cover"
+                    className="absolute inset-0 w-[200%] h-full object-cover z-10"
                     style={{ right: '0%' }}
                     autoPlay
                     loop
@@ -212,40 +229,46 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                     <source src="/loader.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-
+                {/* Black overlays above and below the text band */}
+                <div className="absolute left-0 w-full z-20 pointer-events-none" style={{ top: 0, height: '44%' }}>
+                    <div className="w-full h-full bg-black" />
+                </div>
+                <div className="absolute left-0 w-full z-20 pointer-events-none" style={{ top: '62%', height: '38%' }}>
+                    <div className="w-full h-full bg-black" />
+                </div>
                 {/* SVG Mask Overlay - Right Half */}
-                <div className="relative z-10 w-full h-full">
+                <div className="absolute inset-0 w-full h-full z-30 pointer-events-none">
                     <svg
-                        viewBox="0 0 100 100"
+                        viewBox="0 0 400 200"
                         className="w-full h-full"
-                        preserveAspectRatio="xMidYMid slice"
+                        preserveAspectRatio="xMidYMid meet"
                     >
                         <defs>
                             <mask id="textMaskRightTransition">
                                 <rect width="100%" height="100%" fill="white" />
                                 <text
-                                    x="5%"
-                                    y="50%"
+                                    x="2%"
+                                    y="54%"
                                     textAnchor="start"
                                     dominantBaseline="middle"
                                     fill="black"
-                                    fontSize="12"
+                                    fontSize="90"
                                     fontWeight="bold"
                                     fontFamily="Orbitron, monospace"
-                                    letterSpacing="0.8"
+                                    letterSpacing="8"
                                 >
                                     WAYS
                                 </text>
                                 <text
-                                    x="5%"
-                                    y="65%"
+                                    x="2%"
+                                    y="75%"
                                     textAnchor="start"
                                     dominantBaseline="middle"
                                     fill="black"
-                                    fontSize="6"
+                                    fontSize="40"
                                     fontWeight="normal"
                                     fontFamily="Orbitron, monospace"
-                                    letterSpacing="0.4"
+                                    letterSpacing="4"
                                 >
                                     25
                                 </text>
@@ -256,6 +279,14 @@ const PageTransitionLoader = forwardRef(({ onComplete }, ref) => {
                             height="100%"
                             fill="black"
                             mask="url(#textMaskRightTransition)"
+                        />
+                        {/* The video will show only through the mask (text) */}
+                        <rect
+                            width="100%"
+                            height="100%"
+                            fill="white"
+                            mask="url(#textMaskRightTransition)"
+                            style={{ mixBlendMode: 'multiply' }}
                         />
                     </svg>
                 </div>
