@@ -53,7 +53,13 @@ export function LampDemo() {
     "Triny",
     "Soujanya",
     "Athira CM",
-    "Robin"
+    "Robin",
+    "Amal Jyothi S",
+    "Mariam Sara Shiji",
+    "Praneeth M",
+    "Neha",
+    "Jerin",
+    "Abhinav",
   ];
 
   return (
