@@ -147,14 +147,14 @@ const Accommodation = () => {
               ))}
             </div>
 
-            <motion.div 
+            {/* <motion.div 
               variants={itemVariants}
               className="mt-8 p-4 bg-gradient-to-r from-cyan-400/10 to-[#D4ff00]/10 border border-cyan-400/20 rounded-lg"
             >
               <p className="text-cyan-300 text-sm text-center">
-                💡 <strong>Tip:</strong> Book early to secure your accommodation as slots are limited!
+               <strong>Tip:</strong> Book early to secure your accommodation as slots are limited!
               </p>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </motion.div>
       </div>
