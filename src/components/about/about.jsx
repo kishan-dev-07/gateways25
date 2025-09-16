@@ -16,7 +16,7 @@ export function LampDemo() {
       image: "/about/kishan (1)_Nero_AI_Image_Denoiser.jpeg.jpg",
     },
     { name: "Tushar Ghosh", image: "/about/tushar.jpg" },
-    { name: "Darshan Heble", image: "/about/darshan.jpg" },
+    { name: "Darshan Heble", image: "/about/darshan.png" },
     { name: "Vyshnavi K", image: "/about/vyshnavi.jpg" },
   ];
 
@@ -27,12 +27,12 @@ export function LampDemo() {
     { name: "Ashish Khetal", image: "/about/ashish.jpeg.jpg" },
     { name: "Saumya", image: "/about/Saumya.jpg" },
     { name: "Vivek", image: "/about/Vivek.jpeg.jpg" },
-    { name: "Angel Blessy", image: "/about/angel.jpg" },
-    { name: "Smitha M", image: "/about/smitha.jpg" },
-    { name: "Hitesh Kumar", image: "/about/hitesh.jpg" },
+    { name: "Angel Blessy", image: "/about/angel2.png" },
+    { name: "Smitha M", image: "/about/smitha2.png" },
+    { name: "Hitesh Kumar", image: "/about/hitesh2.png" },
     { name: "Abhinav Jain", image: "/about/abhinav.jpg" },
-    { name: "Shambhavi Sinha", image: "/about/shambhavi.jpg" },
-    { name: "Hari Prasad B K", image: "/about/hariprasad.jpg" },
+    { name: "Shambhavi Sinha", image: "/about/shambavi2.png" },
+    { name: "Hari Prasad B K", image: "/about/hariprasad.png" },
   ];
 
   // Committee Heads: Extracted from CSV 'Committee Incharge' column
@@ -217,7 +217,7 @@ export function LampDemo() {
         </div>
       </LampContainer>
 
-            {/* Section 4: Committee Heads */}
+      {/* Section 4: Committee Heads */}
       <LampContainer className="mt-[-8rem] min-h-[80vh] pt-85">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -236,8 +236,7 @@ export function LampDemo() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
           className="mt-4 text-lg text-cyan-200 text-center max-w-2xl mx-auto"
-        >
-        </motion.p>
+        ></motion.p>
         {/* Only names, no images */}
         <div className="mt-12 flex flex-wrap gap-8 justify-center items-center">
           {committeeHeads.map((name, i) => (
