@@ -59,14 +59,12 @@ export function LampDemo() {
     "Praneeth M",
     "Neha",
     "Jerin",
-    "Abhinav",
     "Sudeepa Santhanam",
     "Athashree",
     "Marcus Thomas",
     "Ananya",
     "Slaven Derick",
     "Sneha Varghese",
-    "Darshan Heble",
     "Sharon Mathew",
     "B K VISHNU",
     "Adarsh Gupta",
@@ -88,7 +86,14 @@ export function LampDemo() {
     "Bhagyashree Roy",
     "Noel",
     "Neha N",
-    "Pratham Jain"
+    "Pratham Jain",
+    "Maria",
+    "Pranab ",
+    "Chrisma",
+    "Anupama",
+    "Mehakk",
+    "Chloe costa",
+    "kiran "
   ];
 
   return (
