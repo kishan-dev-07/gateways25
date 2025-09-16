@@ -27,11 +27,11 @@ export function LampDemo() {
     { name: "Ashish Khetal", image: "/about/ashish.jpeg.jpg" },
     { name: "Saumya", image: "/about/Saumya.jpg" },
     { name: "Vivek", image: "/about/Vivek.jpeg.jpg" },
-    { name: "Angel Blessy", image: "/about/angel2.png" },
-    { name: "Smitha M", image: "/about/smitha2.png" },
-    { name: "Hitesh Kumar", image: "/about/hitesh2.png" },
+    { name: "Angel Blessy", image: "/about/angel.png" },
+    { name: "Smitha M", image: "/about/smitha.png" },
+    { name: "Hitesh Kumar", image: "/about/hitesh.png" },
     { name: "Abhinav Jain", image: "/about/abhinav.jpg" },
-    { name: "Shambhavi Sinha", image: "/about/shambavi2.png" },
+    { name: "Shambhavi Sinha", image: "/about/shambavi.png" },
     { name: "Hari Prasad B K", image: "/about/hariprasad.png" },
   ];
 
