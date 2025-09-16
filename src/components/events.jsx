@@ -84,7 +84,7 @@ const eventsData = [
   {
     title: "Hackathon",
     description:
-      "48-hour coding marathon to build innovative solutions and showcase your development expertise.",
+      "24-hour coding marathon to build innovative solutions and showcase your development expertise.",
     icon: Zap,
   },
 ];
