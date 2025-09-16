@@ -35,7 +35,6 @@ export function LampDemo() {
     { name: "Hari Prasad B K", image: "/about/hariprasad.png" },
   ];
 
-  // Committee Heads: Extracted from CSV 'Committee Incharge' column
   const committeeHeads = [
     "Debin",
     "Vishal S",
@@ -44,6 +43,7 @@ export function LampDemo() {
     "Vidyashree BV",
     "Jithu",
     "Ajin",
+
     "Pratiksha Naik",
     "Alwin",
     "Gabriel Dabhi",
@@ -60,6 +60,35 @@ export function LampDemo() {
     "Neha",
     "Jerin",
     "Abhinav",
+    "Sudeepa Santhanam",
+    "Athashree",
+    "Marcus Thomas",
+    "Ananya",
+    "Slaven Derick",
+    "Sneha Varghese",
+    "Darshan Heble",
+    "Sharon Mathew",
+    "B K VISHNU",
+    "Adarsh Gupta",
+    "Deon",
+    "Evana Joseph",
+    "Arden Diago",
+    "Akhila Suresh",
+    "Vanshika",
+    "Yash Barjatya",
+    "Parthiv",
+    "Reno",
+    "Aditi",
+    "Bhavya Dhanuka",
+    "Anamaya Saraogi",
+    "Anna Bino",
+    "Praneeth M",
+    "Ram Kapadia",
+    "S Kusum",
+    "Bhagyashree Roy",
+    "Noel",
+    "Neha N",
+    "Pratham Jain"
   ];
 
   return (
