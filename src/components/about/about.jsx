@@ -28,7 +28,7 @@ export function LampDemo() {
     { name: "Saumya", image: "/about/Saumya.jpg" },
     { name: "Vivek", image: "/about/Vivek.jpeg.jpg" },
     { name: "Angel Blessy", image: "/about/angel.png" },
-    { name: "Smitha M", image: "/about/smitha.png" },
+    { name: "Smitha M", image: "/about/smitha.JPG" },
     { name: "Hitesh Kumar", image: "/about/hitesh.png" },
     { name: "Abhinav Jain", image: "/about/abhinav.jpg" },
     { name: "Shambhavi Sinha", image: "/about/shambavi.png" },
@@ -93,7 +93,7 @@ export function LampDemo() {
     "Anupama",
     "Mehakk",
     "Chloe costa",
-    "kiran "
+    "kiran ",
   ];
 
   return (
