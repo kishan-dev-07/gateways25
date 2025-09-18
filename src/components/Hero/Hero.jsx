@@ -81,7 +81,7 @@ export default function Hero() {
     // Create a timeline for better control
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".container",
+        trigger: ".containers",
         scrub: 2,
         pin: true,
         start: "top top",
@@ -302,7 +302,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="containers">
       <div className="overlay"></div>
       <div className="hero-1-container relative">
         <div className="hero-main-container">
