@@ -16,7 +16,7 @@ export function LampDemo() {
       image: "/about/kishan (1)_Nero_AI_Image_Denoiser.jpeg.jpg",
     },
     { name: "Tushar Ghosh", image: "/about/tushar.jpg" },
-    { name: "Darshan Heble", image: "/about/darshan.jpg" },
+    { name: "Darshan Heble", image: "/about/darshan.png" },
     { name: "Vyshnavi K", image: "/about/vyshnavi.jpg" },
   ];
 
@@ -27,12 +27,12 @@ export function LampDemo() {
     { name: "Ashish Khetal", image: "/about/ashish.jpeg.jpg" },
     { name: "Saumya", image: "/about/Saumya.jpg" },
     { name: "Vivek", image: "/about/Vivek.jpeg.jpg" },
-    { name: "Angel Blessy", image: "/about/angel.jpg" },
-    { name: "Smitha M", image: "/about/smitha.jpg" },
-    { name: "Hitesh Kumar", image: "/about/hitesh.jpg" },
+    { name: "Angel Blessy", image: "/about/angel.png" },
+    { name: "Smitha M", image: "/about/smitha.JPG" },
+    { name: "Hitesh Kumar", image: "/about/hitesh.png" },
     { name: "Abhinav Jain", image: "/about/abhinav.jpg" },
-    { name: "Shambhavi Sinha", image: "/about/shambhavi.jpg" },
-    { name: "Hari Prasad B K", image: "/about/hariprasad.jpg" },
+    { name: "Shambhavi Sinha", image: "/about/shambavi.png" },
+    { name: "Hari Prasad B K", image: "/about/hariprasad.png" },
   ];
 
   // Committee Heads: Organized by committees with their members
@@ -258,7 +258,7 @@ export function LampDemo() {
         </div>
       </LampContainer>
 
-            {/* Section 4: Committee Heads */}
+      {/* Section 4: Committee Heads */}
       <LampContainer className="mt-[-8rem] min-h-[80vh] pt-85">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
