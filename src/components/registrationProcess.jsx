@@ -14,12 +14,12 @@ const registrationSteps = [
   },
   {
     title: "Step 3",
-    description: "Name of the college the student is currently studying in",
+    description: "Mention the name of the college the student is currently studying in",
   },
   {
     title: "Step 4",
     description:
-      "Name, College provided student register number and phone number of Member-1 who is the team leader ",
+      "Mention the participant Name, College provided student register number and phone number of Member-1 who is the team leader",
   },
   {
     title: "Step 5",

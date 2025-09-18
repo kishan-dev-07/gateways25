@@ -39,7 +39,7 @@
       "Third": 4000
     },
     "Venue": "Assembly Hall",
-    "Date": "Sept 26",
+    "Date (tentative)": "Sept 26",
     "Registration": "On Spot and Online registration",
     "Eligibility": " pg computer science, datascience, it, aiml, mca and related fields"
   },
@@ -208,11 +208,6 @@
         "Name": "Alen Babu T",
         "Class": "1 MSAIM",
         "Contact": "9544211839"
-      },
-      {
-        "Name": "Sourav",
-        "Class": "1 MCA B",
-        "Contact": "8884354953"
       }
     ],
     "Rules": [
@@ -227,9 +222,16 @@
     "Team Size": "1-4",
     "Prize Pool": 27500,
     "Prizes": {
-      "First": 14000,
-      "Second": 8500,
-      "Third": 5000
+      "BGMI": {
+        "First": 9500,
+        "Second": 7500,
+        "Third": 4000
+      },
+      "FIFA": {
+        "First": 3000,
+        "Second": 2000,
+        "Third": 1500
+      }
     },
     "Venue": "814",
     "Date (tentative)": "Sept 25 & 26",
@@ -325,7 +327,7 @@
   },
   {
     "Sl No.": 8,
-    "Events": "CTF",
+    "Events": "CTF(Capture The Flag)",
     "Type": "Tech",
     "Event Name": "NodeRaid",
     "Description": "Gear up for CTF NodeRaid, a fast-paced cybersecurity showdown where teams race to hack, defend, and conquer a network of vulnerable nodes! Crack passwords, exploit hidden flaws, and capture digital flags—all while protecting your own node from rival attacks. With real-world hacking scenarios and escalating difficulty levels, this is your chance to test your skills in a safe but thrilling cyber-battlefield. Whether you're a seasoned hacker or a curious beginner, teamwork and quick thinking will lead you to victory.",
@@ -363,7 +365,7 @@
       "Third": 6000
     },
     "Venue": "MCA Lab",
-    "Date": "Sept 25",
+    "Date (tentative)": "Sept 25",
     "Registration": "On Spot and Online registration",
     "Eligibility": " pg computer science, datascience, it, aiml, mca and related fields"
   },
@@ -407,7 +409,7 @@
       "Third": 6000
     },
     "Venue": "MCA Lab",
-    "Date ": "Sept 25-26",
+    "Date (tentative)": "Sept 25-26",
     "Registration": "On Spot and Online registration",
     "Eligibility": "pg computer science, datascience, it, aiml, mca and related fields"
   },
@@ -451,7 +453,7 @@
       "Third": 3500
     },
     "Venue": "MCA Lab",
-    "Date ": "Sept 25",
+    "Date (tentative)": "Sept 25",
     "Registration": "On Spot and Online registration",
     "Eligibility": "pg computer science, datascience, it, aiml, mca and related fields"
   },
