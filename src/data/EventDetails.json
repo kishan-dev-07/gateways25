@@ -31,7 +31,7 @@
       "Basic Computer Science Knowledge",
       "General IT and Technology Awareness"
     ],
-    "Team Size": "2",
+    "Team Size": "1-2",
     "Prize Pool": 19500,
     "Prizes": {
       "First": 9500,
@@ -115,7 +115,7 @@
       }
     ],
     "Rules": [
-      "Teams can have a maximum of 2 members",
+      "Teams should have 2 members",
       "No mobile phones or outside help allowed",
       "Judges' decisions are final and binding",
       "All participants must arrive 15 minutes prior to the event start time",
@@ -125,7 +125,7 @@
       "Ability to solve puzzles and think creatively",
       "Participants must be able to engage in light physical activities"
     ],
-    "Team Size": "2-4",
+    "Team Size": "2",
     "Prize Pool": 11000,
     "Prizes": {
       "First": 5500,
@@ -166,7 +166,7 @@
       }
     ],
     "Rules": [
-      "No mobile phones or outside help allowed",
+      "Outside help is not allowed",
       "Judges' decisions are final",
       "Clues must not be shared with other teams",
       "Usage of any unfair means will result in immediate disqualification"
@@ -393,7 +393,7 @@
       }
     ],
     "Rules": [
-      "Teams can have a maximum of 2 members",
+      "Teams should have 2 members",
       "No outside help is allowed",
       "Judges' decisions are final"
     ],
@@ -437,7 +437,7 @@
       }
     ],
     "Rules": [
-      "Up to 2 members per team",
+      "2 members per team",
       "Judges' decisions are final",
       "Teams have to create their own design during the event. Pre-made designs are not accepted"
     ],
