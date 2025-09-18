@@ -35,31 +35,72 @@ export function LampDemo() {
     { name: "Hari Prasad B K", image: "/about/hariprasad.jpg" },
   ];
 
-  // Committee Heads: Extracted from CSV 'Committee Incharge' column
+  // Committee Heads: Organized by committees with their members
   const committeeHeads = [
-    "Debin",
-    "Vishal S",
-    "Kuruvilla",
-    "Vyshnavi",
-    "Vidyashree BV",
-    "Jithu",
-    "Ajin",
-    "Pratiksha Naik",
-    "Alwin",
-    "Gabriel Dabhi",
-    "Abhimanyu",
-    "Shoun",
-    "Sumith Meena",
-    "Triny",
-    "Soujanya",
-    "Athira CM",
-    "Robin",
-    "Amal Jyothi S",
-    "Mariam Sara Shiji",
-    "Praneeth M",
-    "Neha",
-    "Jerin",
-    "Abhinav",
+    {
+      committee: "Events",
+      members: ["Debin", "Maria", "Sudeepa Santhanam", "Athashree"]
+    },
+    {
+      committee: "Logistics",
+      members: ["Vishal S", "Pranab", "Marcus Thomas", "Ananya"]
+    },
+    {
+      committee: "Hospitality & Refreshments",
+      members: ["Kuruvilla", "Pratham", "Slaven Derick", "Sneha Varghese"]
+    },
+    {
+      committee: "Documentation",
+      members: ["Vidya", "Chrisma", "Sharon Mathew"]
+    },
+    {
+      committee: "Finance and Account",
+      members: ["Jithu", "Anupama", "B K VISHNU", "Adarsh Gupta"]
+    },
+    {
+      committee: "Social Media",
+      members: ["Ajin", "Mehakk", "Deon", "Evana Joseph"]
+    },
+    {
+      committee: "Culturals",
+      members: ["Pratiksha Naik", "Chloy costa", "Arden Diago", "Akhila Suresh"]
+    },
+    {
+      committee: "Sponsorship",
+      members: ["Alwin", "kiran", "B Sairam", "Vanshika", "Yash Barjatya", "Parthiv"]
+    },
+    {
+      committee: "Registrations",
+      members: ["Gabriel", "Jerin K Joseph", "Reno", "Aditi"]
+    },
+    {
+      committee: "Marketing and Public Relations",
+      members: ["Abhimanyu", "Ashwin", "Bhavya Dhanuka", "Anamaya Saraogi"]
+    },
+    {
+      committee: "Design and Graphics",
+      members: ["Shoun", "Amal", "Anna Bino", "Praneeth M"]
+    },
+    {
+      committee: "Media",
+      members: ["Sumith", "Abhinav", "S Kusum", "Ram Kapadia"]
+    },
+    {
+      committee: "Decorations",
+      members: ["Triny", "Vaibhav", "Bhagyashree Roy", "Noel"]
+    },
+    {
+      committee: "Infobahn",
+      members: ["Soujanya", "Mariam", "Neha N"]
+    },
+    {
+      committee: "Certificates",
+      members: ["Athira CM", "Anina"]
+    },
+    {
+      committee: "Emcee",
+      members: ["Robin"]
+    }
   ];
 
   return (
@@ -238,9 +279,9 @@ export function LampDemo() {
           className="mt-4 text-lg text-cyan-200 text-center max-w-2xl mx-auto"
         >
         </motion.p>
-        {/* Only names, no images */}
-        <div className="mt-12 flex flex-wrap gap-8 justify-center items-center">
-          {committeeHeads.map((name, i) => (
+        {/* Committee names and members */}
+        <div className="mt-12 flex flex-wrap gap-8 justify-center items-start">
+          {committeeHeads.map((committee, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0.5, y: 40 }}
@@ -251,10 +292,20 @@ export function LampDemo() {
                 ease: "easeInOut",
               }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-slate-800 to-slate-900 shadow-lg rounded-xl w-[220px] h-[100px] md:w-[260px] md:h-[110px] flex flex-col items-center justify-center text-cyan-200 text-xl font-semibold border border-cyan-400/30 overflow-hidden"
+              className="bg-gradient-to-r from-slate-800 to-slate-900 shadow-lg rounded-xl w-[280px] min-h-[180px] md:w-[320px] md:min-h-[200px] flex flex-col items-center justify-start p-6 text-cyan-200 border border-cyan-400/30 overflow-hidden"
             >
-              <div className="flex items-center justify-center h-full w-full">
-                {name}
+              <h3 className="text-lg md:text-xl font-bold text-[#D4ff00] mb-4 text-center">
+                {committee.committee}
+              </h3>
+              <div className="flex flex-col items-center justify-center space-y-2">
+                {committee.members.map((member, memberIndex) => (
+                  <span 
+                    key={memberIndex}
+                    className="text-sm md:text-base font-medium text-cyan-200 text-center"
+                  >
+                    {member}
+                  </span>
+                ))}
               </div>
             </motion.div>
           ))}

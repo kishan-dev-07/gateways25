@@ -27,7 +27,7 @@ const eventsData = [
     icon: Brain,
   },
   {
-    title: "It Manager",
+    title: "IT Manager",
     description:
       "Leadership simulation challenges focusing on project management and team coordination skills.",
     icon: Users,

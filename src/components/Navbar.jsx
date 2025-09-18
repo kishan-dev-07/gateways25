@@ -147,7 +147,7 @@ export default function Navbar() {
                   About
                 </button>
                 <a
-                  href="https://heyzine.com/flip-book/746bdd4368.html"
+                  href="https://heyzine.com/flip-book/3d683b93e7.html"
                   target="_blank"
                 >
                   <button className="text-gray-300 hover:text-white transition-colors duration-200 font-medium cursor-pointer">
@@ -217,7 +217,7 @@ export default function Navbar() {
                 About
               </button>
               <a
-                href="https://heyzine.com/flip-book/746bdd4368.html"
+                href="https://heyzine.com/flip-book/3d683b93e7.html"
                 target="_blank"
               >
                 <button
