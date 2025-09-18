@@ -219,32 +219,101 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
                   Prizes
                 </span>
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="bg-black/30 border border-[#D4FF00] rounded-lg p-4 flex flex-col items-center">
-                  <span className="text-[#D4FF00] font-bold text-lg mb-2">
-                    First
-                  </span>
-                  <span className="text-white font-bold text-xl">
-                    ₹{eventData.Prizes.First.toLocaleString()}
-                  </span>
+              
+              {/* Check if it's Gaming event with separate BGMI and FIFA prizes */}
+              {eventData.Events === "Gaming" && eventData.Prizes.BGMI && eventData.Prizes.FIFA ? (
+                <div className="space-y-6">
+                  {/* BGMI Prizes */}
+                  <div>
+                    <h4 className="text-lg font-bold text-[#D4FF00] mb-3 font-mono">BGMI</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="bg-black/30 border border-[#D4FF00] rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-[#D4FF00] font-bold text-lg mb-2">
+                          First
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.BGMI.First.toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="bg-black/30 border border-gray-300 rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-gray-300 font-bold text-lg mb-2">
+                          Second
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.BGMI.Second.toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="bg-black/30 border border-[#cd7f32] rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-[#cd7f32] font-bold text-lg mb-2">
+                          Third
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.BGMI.Third.toLocaleString()}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* FIFA Prizes */}
+                  <div>
+                    <h4 className="text-lg font-bold text-[#D4FF00] mb-3 font-mono">FIFA</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="bg-black/30 border border-[#D4FF00] rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-[#D4FF00] font-bold text-lg mb-2">
+                          First
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.FIFA.First.toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="bg-black/30 border border-gray-300 rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-gray-300 font-bold text-lg mb-2">
+                          Second
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.FIFA.Second.toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="bg-black/30 border border-[#cd7f32] rounded-lg p-4 flex flex-col items-center">
+                        <span className="text-[#cd7f32] font-bold text-lg mb-2">
+                          Third
+                        </span>
+                        <span className="text-white font-bold text-xl">
+                          ₹{eventData.Prizes.FIFA.Third.toLocaleString()}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="bg-black/30 border border-gray-300 rounded-lg p-4 flex flex-col items-center">
-                  <span className="text-gray-300 font-bold text-lg mb-2">
-                    Second
-                  </span>
-                  <span className="text-white font-bold text-xl">
-                    ₹{eventData.Prizes.Second.toLocaleString()}
-                  </span>
+              ) : (
+                /* Regular prize structure for other events */
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-black/30 border border-[#D4FF00] rounded-lg p-4 flex flex-col items-center">
+                    <span className="text-[#D4FF00] font-bold text-lg mb-2">
+                      First
+                    </span>
+                    <span className="text-white font-bold text-xl">
+                      ₹{eventData.Prizes.First.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="bg-black/30 border border-gray-300 rounded-lg p-4 flex flex-col items-center">
+                    <span className="text-gray-300 font-bold text-lg mb-2">
+                      Second
+                    </span>
+                    <span className="text-white font-bold text-xl">
+                      ₹{eventData.Prizes.Second.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="bg-black/30 border border-[#cd7f32] rounded-lg p-4 flex flex-col items-center">
+                    <span className="text-[#cd7f32] font-bold text-lg mb-2">
+                      Third
+                    </span>
+                    <span className="text-white font-bold text-xl">
+                      ₹{eventData.Prizes.Third.toLocaleString()}
+                    </span>
+                  </div>
                 </div>
-                <div className="bg-black/30 border border-[#cd7f32] rounded-lg p-4 flex flex-col items-center">
-                  <span className="text-[#cd7f32] font-bold text-lg mb-2">
-                    Third
-                  </span>
-                  <span className="text-white font-bold text-xl">
-                    ₹{eventData.Prizes.Third.toLocaleString()}
-                  </span>
-                </div>
-              </div>
+              )}
             </div>
           )}
 
@@ -348,8 +417,7 @@ const EventModal = ({ isOpen, onClose, eventData }) => {
                 </span>
               </div>
               <div className="text-white">
-                {eventData.Registration == "On Spot" ? "On Spot and " : ""}{" "}
-                Online Registration
+                {eventData.Registration}
               </div>
             </div>
 

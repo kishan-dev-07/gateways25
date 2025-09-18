@@ -208,11 +208,6 @@
         "Name": "Alen Babu T",
         "Class": "1 MSAIM",
         "Contact": "9544211839"
-      },
-      {
-        "Name": "Sourav",
-        "Class": "1 MCA B",
-        "Contact": "8884354953"
       }
     ],
     "Rules": [
@@ -227,9 +222,16 @@
     "Team Size": "1-4",
     "Prize Pool": 27500,
     "Prizes": {
-      "First": 14000,
-      "Second": 8500,
-      "Third": 5000
+      "BGMI": {
+        "First": 9500,
+        "Second": 7500,
+        "Third": 4000
+      },
+      "FIFA": {
+        "First": 3000,
+        "Second": 2000,
+        "Third": 1500
+      }
     },
     "Venue": "814",
     "Date (tentative)": "Sept 25 & 26",
