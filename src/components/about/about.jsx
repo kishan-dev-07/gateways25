@@ -47,7 +47,7 @@ export function LampDemo() {
     },
     {
       committee: "Hospitality & Refreshments",
-      members: ["Kuruvilla", "Pratham", "Slaven Derick", "Sneha Varghese"]
+      members: ["Kuruvilla", "Pratham Jain", "Slaven Derick", "Sneha Varghese"]
     },
     {
       committee: "Documentation",
