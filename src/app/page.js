@@ -13,6 +13,7 @@ import Footer from "@/components/footer";
 import RegistrationProcess from "@/components/registrationProcess";
 import Accommodation from "@/components/Accommodation";
 import Contact from "@/components/contact";
+import { Schedule } from "@/components/schedule/schedule";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,12 +21,10 @@ export default function Home() {
   const sliderRef = useRef(null);
 
   useEffect(() => {
-    // Set a minimum loading time (e.g., 3 seconds)
     const timer = setTimeout(() => {
       setIsLoading(false);
-      // Add a small delay before showing content for smooth transition
       setTimeout(() => setShowContent(true), 500);
-    }, 4000); // Show loader for 3 seconds
+    }, 4000); 
 
     return () => clearTimeout(timer);
   }, []);
@@ -52,6 +51,7 @@ export default function Home() {
         {/* <ScrollVideo /> */}
         {/* <Hero /> */}
         <Events />
+        <Schedule />
         <RegistrationProcess />
         <Accommodation />
         {/* <SponsorsMarquee /> */}
