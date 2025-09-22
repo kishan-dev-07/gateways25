@@ -6,9 +6,13 @@ export function Schedule() {
   return (
     <section
       className="min-h-screen px-4 md:px-8 lg:px-10"
+      // style={{
+      //   background:
+      //     "linear-gradient(298deg, #1c1829 0%, #1b1828 8.61%, #191724 17.21%, #161520 25.82%, #14131c 34.42%, #121218 43.03%, #111117 51.63%)",
+      // }}
       style={{
         background:
-          "linear-gradient(298deg, #1c1829 0%, #1b1828 8.61%, #191724 17.21%, #161520 25.82%, #14131c 34.42%, #121218 43.03%, #111117 51.63%)",
+          "linear-gradient(252deg, #1c1829 0%, #1b1828 8.61%, #191724 17.21%, #161520 25.82%, #14131c 34.42%, #121218 43.03%, #111117 51.63%)",
       }}
     >
       <div className="mx-auto max-w-7xl">
@@ -19,7 +23,7 @@ export function Schedule() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <h1 className="text-[3.5rem] w-fit mx-auto text-center font-bold md:text-7xl bg-gradient-to-r from-cyan-300 to-[#D4ff00] bg-clip-text text-transparent">
+          <h1 className="text-[3.5rem] w-fit mx-auto text-center font-bold md:text-7xl bg-gradient-to-r from-cyan-300 to-[#D4ff00] bg-clip-text text-transparent pt-3">
             Schedule
           </h1>
         </motion.div>
@@ -46,48 +50,40 @@ export function Schedule() {
             </div>
             <div className="space-y-3 text-sm">
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">9:00 AM</span>
+                <span className="text-cyan-300">9:30 AM - 10:30 AM</span>
                 <span className="text-white">INAUGURATION</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">10:00 AM</span>
-                <span className="text-white">IT QUIZ</span>
-              </div>
-              <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">10:30 AM</span>
+                <span className="text-cyan-300">11:00 AM - 02:00 PM</span>
                 <span className="text-white">TREASURE HUNT</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">11:00 AM</span>
+                <span className="text-cyan-300">11:00 AM - 12:00 PM</span>
                 <span className="text-white">UI/UX</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">11:30 AM</span>
+                <span className="text-cyan-300">11:30 AM - 01:30 PM</span>
                 <span className="text-white">IT MANAGER</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">12:00 PM</span>
+                <span className="text-cyan-300">11:00 AM - 03:00 PM</span>
                 <span className="text-white">GAMING</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">1:00 PM</span>
+                <span className="text-cyan-300">11:00 PM - 05:00 PM</span>
                 <span className="text-white">PHOTOGRAPHY</span>
-              </div>
+              </div>    
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">3:00 PM</span>
+                <span className="text-cyan-300">02:00 PM - 03:00 PM</span>
                 <span className="text-white">CODING DEBUGGING</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">3:30 PM</span>
-                <span className="text-white">CTF</span>
+                <span className="text-cyan-300">02:00 PM - 05:00 PM</span>
+                <span className="text-white">CAPTURE THE FLAG</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">4:00 PM</span>
+                <span className="text-cyan-300">03:30 PM - 05:00 PM</span>
                 <span className="text-white">UI/UX</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-cyan-300">4:30 PM</span>
-                <span className="text-white">IT QUIZ</span>
               </div>
             </div>
           </motion.div>
@@ -107,43 +103,31 @@ export function Schedule() {
             </div>
             <div className="space-y-3 text-sm">
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">9:00 AM</span>
+                <span className="text-cyan-300">9:00 AM - 10:00 AM</span>
                 <span className="text-white">IT QUIZ</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">9:30 AM</span>
+                <span className="text-cyan-300">9:00 AM - 11:00 AM</span>
                 <span className="text-white">GAMING</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">10:00 AM</span>
+                <span className="text-cyan-300">09:00 AM - 11:00 AM</span>
                 <span className="text-white">IOT</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">10:30 AM</span>
-                <span className="text-white">IT MANAGER</span>
-              </div>
-              <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">11:00 AM</span>
+                <span className="text-cyan-300">10:30 AM - 12:00 PM</span>
                 <span className="text-white">CODING DEBUGGING</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">12:00 PM</span>
+                <span className="text-cyan-300">12:00 PM - 02:00 PM</span>
                 <span className="text-white">IT MANAGER</span>
               </div>
               <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">1:00 PM</span>
-                <span className="text-white">CODING DEBUGGING</span>
-              </div>
-              <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">2:30 PM</span>
+                <span className="text-cyan-300">12:30 PM - 03:00 PM</span>
                 <span className="text-white">SURPRISE EVENT</span>
               </div>
-              <div className="flex justify-between border-b border-white/[0.1] pb-2">
-                <span className="text-cyan-300">3:30 PM</span>
-                <span className="text-white">IT MANAGER</span>
-              </div>
               <div className="flex justify-between">
-                <span className="text-cyan-300">4:30 PM</span>
+                <span className="text-cyan-300">4:00 PM - 06:00 PM</span>
                 <span className="text-white">VALEDICTORY</span>
               </div>
             </div>
